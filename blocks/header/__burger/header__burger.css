@@ -1,0 +1,17 @@
+.header__burger {
+    min-width: 30px;
+    min-height: 20px;
+    background-image: url(../../../images/burger-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1300px) {
+    
+    .header__burger {
+        display: none;
+    }
+}

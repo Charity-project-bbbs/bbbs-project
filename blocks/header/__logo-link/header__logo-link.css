@@ -1,0 +1,15 @@
+.header__logo-link {
+    max-width: 183px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    
+    .header__logo-link {
+        order: 0;
+        margin: 0 auto;
+    }
+}

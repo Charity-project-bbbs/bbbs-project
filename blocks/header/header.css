@@ -1,0 +1,15 @@
+.header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 3.9%;
+    padding-right: 3.9%;
+}
+
+/* @media (max-width: 1440px) {
+    
+    .header {
+        padding-right: 135px;
+        padding-left: 135px;
+    }
+} */

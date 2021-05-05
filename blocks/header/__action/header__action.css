@@ -1,0 +1,16 @@
+.header__action {
+    min-width: 90px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1300px) {
+    
+    .header__action {
+        order: -1;
+    }
+}

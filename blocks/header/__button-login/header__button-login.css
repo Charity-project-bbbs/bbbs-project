@@ -1,0 +1,19 @@
+.header__button-login {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image: url(../../../images/login.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    
+    .header__button-login {
+        display: none;
+    }
+}

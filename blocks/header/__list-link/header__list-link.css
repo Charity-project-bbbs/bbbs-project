@@ -1,0 +1,13 @@
+.header__list-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    line-height: 17.5px;
+    letter-spacing: 0.2px;
+    font-weight: 300;
+    vertical-align: top;
+    text-align: left;
+}

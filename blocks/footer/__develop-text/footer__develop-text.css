@@ -1,0 +1,13 @@
+.footer__develop-text {
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #F3F2F2;
+}
+
+.footer__develop-text:last-child {
+    margin-right: 0;
+}
