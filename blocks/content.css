@@ -1,0 +1,23 @@
+.content {
+    flex: 1;
+    max-width: 1770px;
+    margin: auto;
+}
+
+@media (max-width: 1440px) {
+    .content {
+        width: calc(100% - 270px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: calc(100% - 254px);
+    }
+}
+
+@media (max-width: 640px) {
+    .content {
+        width: calc(100% - 32px);
+    }
+}

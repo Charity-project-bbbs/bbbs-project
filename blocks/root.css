@@ -1,0 +1,11 @@
+.root {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'PT Root', Arial, sans-serif;
+    color: black;
+    background-color: rgba(243, 242, 242, 1);
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
