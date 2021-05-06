@@ -10,56 +10,51 @@
 </head>
 
 <body class="root">
-    <header class="header">
-        <div class="header__wrapper">
-            <a class="header__logo-link"><img src="./images/logo.svg" alt="" class="header__logo logo"></a>
-            <nav class="header__menu header__menu_burger">
-                <button class="header__burger header__burger-close"></button>
-                <ul class="header__list">
-                    <li class="header__list-item"><a href="#" class="header__list-link">Календарь</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Куда пойти</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Вопросы</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Читать и смотреть</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
-                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
-                </ul>
-            </nav>
-
-            <nav class="header__action">
-                <button class="header__button-search"></button>
-                <svg width="1" height="21" viewBox="0 0 1 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="0.35" y1="0.363525" x2="0.349999" y2="20.3635" stroke="#A7A6A6" stroke-width="0.7" />
-                </svg>
-                <button class="header__button-login"></button>
-            </nav>
-        </div>
-    </header>
-
     <main>
-        <section class="articles__grid">
+        <section class="intro">
+            <div class="calendar">
+                <div class="calendar__wrapper">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры + дети</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Субботний meet up: учимся проходить интевью</h2>
+                        <p class="calendar__day">05</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button class="button button_place_calendar" type="button">Записаться</button>
+                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                        </div>
+                        <button class="button_place_calendar button_place_calendar-round" type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF"/>
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF"/>
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF"/>
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF"/>
+                                </svg>
+                        </button>
 
+                    </div>
+                </div>
+            </div>
+
+            <div class="story">
+                <h1 class="story__title">История Марины и Алины</h1>
+            </div>
         </section>
     </main>
 
-
-    <footer class="footer">
-        <div class="footer__wrapper">
-            <div class="footer__about">
-                <img class="footer__logo" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
-                <button class="footer__help-btn button-white">
-                    <p class="footer__help-text">Помочь деньгами</p>
-                </button>
-            </div>
-            <div class="footer__develop">
-            <p class="footer__copyright">© Старшие Братья Старшие Сестры</p>
-                <p class="footer__develop-text">Разработка – студенты <a class="footer__develop-accent"
-                        href="#">Яндекс.Практикум</a></p>
-                <p class="footer__develop-text">Концепия и дизайн – <a class="footer__develop-accent"
-                        href="#">krkr.design</a></p>
-            </div>
-
-        </div>
-    </footer>
 </body>
 
 </html>

@@ -6,4 +6,7 @@
     background-color: rgba(243, 242, 242, 1);
     letter-spacing: 0.2px;
     box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
