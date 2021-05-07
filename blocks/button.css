@@ -12,21 +12,21 @@
     text-align: left;
 }
 
-.button_place_calendar {
+.button_color_blue {
     color: #224CFF;
     border: 1px #224CFF solid;
 }
 
-.button_place_calendar:hover {
+.button_color_blue:hover {
     background-color: rgba(200, 209, 255, 1);
 }
 
-.button_place_calendar:active {
+.button_color_blue:active {
     background-color: rgba(34, 76, 255, 1);
     color: white;
 }
 
-.button_place_calendar-round {
+.button_color_blue-round {
     border: none;
     padding: 0;
     margin: 0;
@@ -34,35 +34,35 @@
     border-radius: 100px;
 }
 
-.button_place_calendar-round:hover {
+.button_color_blue-round:hover {
     background-color: transparent;
 }
 
-.button_place_calendar-round:active {
+.button_color_blue-round:active {
     background-color: transparent;
 }
 
-.button_calendar_onclick {
+.button_color_blue_onclick {
     background-color: #224CFF;
     color: white;
 }
 
-.button_place_grid-calendar {
+.button_color_black {
     border: 1px black solid;
     color: black;
     margin-bottom: 15px;
 }
 
-.button_place_grid-calendar:hover {
+.button_color_black:hover {
     background-color: #E0E0E0;
 }
 
-.button_place_grid-calendar:active {
+.button_color_black:active {
     background-color: black;
     color: rgba(243, 242, 242, 1);
 }
 
-.button_place_calendar-nonactive {
+.button_color_black-nonactive {
     border: 1px #A7A6A6 solid;
     color: #A7A6A6;
 }
@@ -79,7 +79,7 @@
 
 @media (max-width: 1250px) {
     
-    .button_calendar_onclick {
+    .button_color_blue_onclick {
         text-align: center;
     }
 }
@@ -95,7 +95,7 @@
 
 @media (max-width: 440px) {
     
-    .button_place_grid-calendar {
+    .button_color_black {
         margin-bottom: 10px;
     }
 }
