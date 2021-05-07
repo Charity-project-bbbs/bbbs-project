@@ -1,0 +1,85 @@
+.proof {
+    position: relative;
+    width: 770px;
+    height: 670px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    border-radius: 30px;
+}
+
+.proof__title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #000;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.proof__buttons {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    
+    .proof {
+        width: 670px;
+        height: 570px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .proof {
+        width: 570px;
+        height: 470px;
+    }
+}
+
+@media (max-width: 850px) {
+    
+    .proof {
+        width: 470px;
+        height: 370px;
+    }
+
+    .proof__title {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 560px) {
+    
+    .proof {
+        max-width: 370px;
+        max-height: 270px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .proof__title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 440px) {
+    
+    .proof {
+        max-width: 290px;
+    }
+}

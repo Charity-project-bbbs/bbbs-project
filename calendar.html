@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/calendar.css">
     <title>Document</title>
 </head>
 
@@ -218,7 +218,6 @@
     </footer>
 
     <section class="popup popup__meet">
-
         <div class="calendar calendar__popup">
             <button class="button-close popup__button_close"></button>
             <div class="calendar__about_popup">
@@ -257,6 +256,34 @@
                     <p class="calendar__sign-up_text">Осталось 5 мест</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="popup popup__proof">
+        <div class="proof">
+            <button class="button-close popup__button_close"></button>
+            <h2 class="proof__title">Подтвердить запись на мероприятие 
+                «Субботний meet up: учимся проходить интервью»
+                5 декабря с 12:00–14:00
+            </h2>
+            <div class="proof__buttons">
+                <button class="button button_place_calendar">Подтвердить запись</button>
+                <button class="button button_place_grid-calendar">Отменить</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="popup popup__success popup_opened">
+        <div class="success">
+            <button class="button-close popup__button_close"></button>
+            <img class="success__image" src="./images/success-popup.svg" alt="#">
+            <h2 class="success__title">Вы записаны на мероприятие «Субботний meet up: учимся 
+                проходить интервью» 5 декабря с 12:00–14:00.
+            </h2>
+            <h2 class="success__title"> Если у вас не получится прийти — отмените, 
+                пожалуйста, запись.
+            </h2>
+            <button class="button button_place_grid-calendar success__button">Вернуться к календарю</button>
         </div>
     </section>
 

@@ -4,31 +4,10 @@
 
 @import url(../blocks/root/root.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
-@import url(../blocks/header/__logo-link/header__logo-link.css);
-@import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__list/header__list.css);
-@import url(../blocks/header/__list-item/header__list-item.css);
-@import url(../blocks/header/__list-link/header__list-link.css);
-@import url(../blocks/header/__action/header__action.css);
-@import url(../blocks/header/__button-login/header__button-login.css);
-@import url(../blocks/header/__button-search/header__button-search.css);
-@import url(../blocks/header/__menu-burger/header__menu-burger.css);
-@import url(../blocks/header/__burger/header__burger.css);
-@import url(../blocks/header/__burger-btn/header__burger-btn.css);
-
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__wrapper/footer__wrapper.css);
-@import url(../blocks/button/button-white.css);
-@import url(../blocks/footer/__help-text/footer__help-text.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__about/footer__about.css);
-@import url(../blocks/footer/__develop/footer__develop.css);
-@import url(../blocks/footer/__develop-text/footer__develop-text.css);
-@import url(../blocks/footer/__develop-accent/footer__develop-accent.css);
 
 @import url(../blocks/button.css);
 @import url(../blocks/calendar.css);
 @import url(../blocks/grid-calendar.css);
 @import url(../blocks/popup.css);
+@import url(../blocks/proof.css);
+@import url(../blocks/success.css);
