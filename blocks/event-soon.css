@@ -4,8 +4,6 @@
 
 .event-soon__content-wrapper {
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 30px;
 }
 
 .event-soon__description {
@@ -95,7 +93,9 @@
 
 .event-soon__about-wrapper_size_small {
     max-height: 224px;
+    margin-bottom: 30px;
 }
+
 
 .event-soon__about-container{
     margin: 47px 15px 69px 30px;

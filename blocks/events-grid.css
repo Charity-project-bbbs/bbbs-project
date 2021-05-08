@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
+    padding-bottom: 90px;
 }
 
 @media (max-width: 1420px) {
@@ -11,9 +12,22 @@
     
 }
 
+@media (max-width: 1024px) {
+    .events-grid {
+        padding-bottom: 70px;
+    }
+}
+
 @media (max-width: 950px) {
     .events-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .events-grid {
+        padding-bottom: 20px;
     }
     
 }
