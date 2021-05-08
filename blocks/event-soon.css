@@ -177,7 +177,7 @@
         margin-bottom: 5px;
     }
 
-    .event-soon__paragraph {
+    .event-soon__paragraph_size_big {
         margin-left: 24.83px;
         font-size: 15px;
         line-height: 21px;
@@ -208,18 +208,9 @@
         font-size: 12px;
         line-height: 17px;
     }
-} 
-
-@media (max-width: 1024px) {
 
     .event-soon__caption {
         margin-bottom: 39px;
-    }
-
-    .event-soon__paragraph {
-        margin-left: 24.83px;
-        font-size: 15px;
-        line-height: 21px;
     }
 } 
 
