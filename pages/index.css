@@ -9,8 +9,23 @@
 @import url(../blocks/footer.css);
 
 @import url(../blocks/button.css);
+@import url(../blocks/tag.css);
 
 @import url(../blocks/content.css);
 @import url(../blocks/logo.css);
+
+@import url(../blocks/mainpage.css);
+@import url(../blocks/bbbs.css);
+@import url(../blocks/movie.css);
+@import url(../blocks/preview-article.css);
+@import url(../blocks/questions.css);
+@import url(../blocks/question.css);
+@import url(../blocks/facebook.css);
+@import url(../blocks/mainvideo.css);
+@import url(../blocks/mainlink.css);
+@import url(../blocks/story.css);
+
+@import url(../blocks/profile-grid.css);
+@import url(../blocks/event-soon.css);
 
 

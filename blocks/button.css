@@ -4,23 +4,27 @@
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
-    border: 1px solid #224CFF;
+    border: 1px solid #F3F2F2;
     border-radius: 100px;
     font-family: 'Proto', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 19px;
     letter-spacing: 0.2px;
-    color: #224CFF;
+    color: #F3F2F2;
     cursor: pointer;
 }
 
 .button_place_footer {
-    color: #F3F2F2;
-    border-color: #F3F2F2;
     grid-area: btn;
     margin-right: 46px;
 }
+
+.button_place_footer:hover {
+    color: #C8D1FF;
+    border-color: #C8D1FF;
+}
+
 
 @media (max-width: 1360px) {
     .button_place_footer {
