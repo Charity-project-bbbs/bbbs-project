@@ -1,9 +1,0 @@
-.event-soon-card {
-    padding-bottom: 80px;
-}
-
-@media (max-width: 1024px) {
-    .event-soon-card {
-        padding-bottom: 30px;
-    }
-}
