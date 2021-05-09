@@ -95,7 +95,7 @@
         
                                 <div
                                     class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_big">
-                                    <div class="event-soon__about-container event-soon__about-container_size_big">
+                                    <article class="event-soon__about-container event-soon__about-container_size_big">
                                         <div class="event-soon__about-title event-soon__about-title_size_big">Девока, 10 лет.
                                             Активный отдых</div>
                                         <p class="event-soon__paragraph event-soon__paragraph_size_big">
@@ -115,11 +115,11 @@
                                             и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество вопросов, жизнь
                                             меняется.
                                         </p>
-                                    </div>
+                                    </article>
                                 </div>
                             </section>
                         </div>
-                </section>        
+                </section>     
             </section>
 
             <section class="mainpage__block">
@@ -342,9 +342,17 @@
                 <input type="password" name="password" placeholder="Пароль" id="place" class="popup__input popup__input_type_password" required minlength="2">
                 <span class="popup__error popup__error_type_password"></span>
                 <a class="login__link" href="#">Забыли пароль?</a>
-                <button type="submit" class="button button_color_darkgray popup__submit-btn popup__submit-btn_type_login">Войти</button>
+                <button type="submit" class="button popup__submit-btn popup__submit-btn_type_login">Войти</button>
             </form>
         </div>
+    </div>
+
+    <div class="popup popup_type_video">
+        <div class="apivideo">
+            <iframe class="apivideo__video" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/SBHD6nxlCJY" allowfullscreen></iframe>
+            <h3 class="apivideo__title">Что в силах волонтера-наставника?</h3>
+            <p class="apivideo__text">Иван Рустаев, волонтер-наставник</p>   
+        </div>     
     </div>
 
     <script src="./index.js"></script>

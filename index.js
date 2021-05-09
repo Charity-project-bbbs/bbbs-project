@@ -1,23 +1,27 @@
-const openButton = document.querySelector('.header__burger-btn')
-const menu = document.querySelector('.header__burger')
-const login = document.querySelector('.header__button-login')
-let isClicked = false
+console.log('t')
 
-const popupLogin = document.querySelector('.popup_type_login')
-const loginButton = document.querySelector('.header__button-login')
+const openButton = document.querySelector('.header__burger-btn');
+const menu = document.querySelector('.header__burger');
+let isClicked = false;
 
-const calenderLinks = document.querySelectorAll('.calender-open')
+const popupLogin = document.querySelector('.popup_type_login');
+const loginButton = document.querySelector('.header__button-login');
+
+const calenderLinks = document.querySelectorAll('.calender-open');
+
+const popupVideo = document.querySelector('.popup_type_video');
+const videoBlock = document.querySelector('.mainvideo__video');
 
 openButton.addEventListener('click', () => {
     if (isClicked === false) {
         menu.classList.remove('header__burger_hidden');
         openButton.style.backgroundImage = 'url(../images/close.svg)';
-        login.style.display = 'block';
+        loginButton.style.display = 'block';
         isClicked = true     
     } else {
         menu.classList.add('header__burger_hidden');
         openButton.style.backgroundImage = 'url(../images/burger-menu.svg)';
-        login.style.display = 'none';
+        loginButton.style.display = 'none';
         isClicked = false
     }
 })
@@ -42,13 +46,16 @@ const openPopupLogin = () => {
   openPopup(popupLogin);
 }
 
-const openPopupAdd = () => {
-    openPopup(popupLogin);
-  }
+const openPopupVideo = () => {
+    openPopup(popupVideo);
+}
 
 loginButton.addEventListener('click', openPopupLogin);
 popupLogin.addEventListener('click', closeWithClick);
+videoBlock.addEventListener('click', openPopupVideo);
+popupVideo.addEventListener('click', closeWithClick);
 
 calenderLinks.forEach((item) => {
     item.addEventListener('click', openPopupLogin);
 })
+

@@ -10,12 +10,14 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll;  
+    overflow-y: scroll; 
+    z-index: 200; 
 }
 
 .popup_opened {
     display: flex;
 }
+
 
 .popup__button-close {
     position: absolute;

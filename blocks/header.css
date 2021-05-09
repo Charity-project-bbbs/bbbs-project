@@ -97,7 +97,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-image: url(../../../images/search.svg);
+    background-image: url(../images/search.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -122,7 +122,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-image: url(../../../images/login.svg);
+    background-image: url(../images/login.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -130,7 +130,7 @@
 }
 
 .header__button-login_authorized {
-    background-image: url(../../../images/lk.svg);
+    background-image: url(../images/lk.svg);
 }
 
 .header__burger {
