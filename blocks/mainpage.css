@@ -44,17 +44,27 @@
         grid-template-columns: repeat(2, 1fr);
     }
     
-}@media (max-width: 640px) {
+}
+
+@media (max-width: 760px) {
+    .mainpage__twoblocks-col {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 740px) {
     .mainpage__intro {
         grid-template-columns: 1fr;
     }
 
+
+}
+
+@media (max-width: 640px) {
+
+
     .mainpage__movies {
         grid-template-columns: 1fr;
-    }
-
-    .mainpage__twoblocks-col {
-        flex-direction: column;
     }
     
 }

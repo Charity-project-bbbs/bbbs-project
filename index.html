@@ -26,11 +26,8 @@
             </nav>
 
             <nav class="header__action">
-                <button class="header__button-search"></button>
-                <svg class="header__line" width="1" height="21" viewBox="0 0 1 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="0.35" y1="0.363525" x2="0.349999" y2="20.3635" stroke="#A7A6A6" stroke-width="0.7" />
-                </svg>
-                <button class="header__button-login"></button>
+                <a class="header__button-search" href="#"></a>
+                <button type="button" class="header__button-login"></button>
             </nav>
         </div>
         <div class="header__burger header__burger_hidden">
@@ -136,95 +133,98 @@
                 </article>
             </section>
 
-            <ul class="mainpage__movies">
-                <li class="movie">
-                    <a class="mainlink" href="#"></a>
-                    <div class="movie__img">
-                        <img class="movie__poster" src="./images/movie.png" alt="">
-                        <div class="movie__tags">
-                            <p class="tag">рубрика</p>
-                            <p class="tag">рубрика</p>
-                        </div>
-                    </div>
-                    <div class="movie__descriprion">
-                        <div class="movie__name">
-                            <h3 class="movie__title">Жутко громко и запредельно близко</h3>
-                            <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-                        </div>
-                        <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
-                    </div>
-                </li>
-                <li class="movie">
-                    <a class="mainlink" href="#"></a>
-                    <div class="movie__img">
-                        <img class="movie__poster" src="./images/movie.png" alt="">
-                        <div class="movie__tags">
-                            <p class="tag">рубрика</p>
-                            <p class="tag">рубрика</p>
-                        </div>
-                    </div>
-                    <div class="movie__descriprion">
-                        <div class="movie__name">
-                            <h3 class="movie__title">Жизнь кабачка</h3>
-                            <p class="movie__caption">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
-                        </div>
-                        <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
-                    </div>
-                </li>
-                <li class="movie">
-                    <a class="mainlink" href="#"></a>
-                    <div class="movie__img">
-                        <img class="movie__poster" src="./images/movie.png" alt="">
-                        <div class="movie__tags">
-                            <p class="tag">рубрика</p>
-                            <p class="tag">рубрика</p>
-                        </div>
-                    </div>
-                    <div class="movie__descriprion">
-                        <div class="movie__name">
-                            <h3 class="movie__title">Волчок</h3>
-                            <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
-                        </div>
-                        <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
-                    </div>
-                </li>
-                <li class="movie">
-                    <a class="mainlink" href="#"></a>
-                    <div class="movie__img">
-                        <img class="movie__poster" src="./images/movie.png" alt="">
-                        <div class="movie__tags">
-                            <p class="tag">рубрика</p>
-                            <p class="tag">рубрика</p>
-                        </div>
-                    </div>
-                    <div class="movie__descriprion">
-                        <div class="movie__name">
-                            <h3 class="movie__title">Жутко громко и запредельно близко</h3>
-                            <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-                        </div>
-                        <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
-                    </div>
-                </li>
-                
-                <template id="template-movie">
+
+            <section class="mainpage__block">
+                <ul class="mainpage__movies">
                     <li class="movie">
+                        <a class="mainlink" href="#"></a>
                         <div class="movie__img">
-                            <img class="movie__poster" src="" alt="">
+                            <img class="movie__poster" src="./images/movie.png" alt="">
                             <div class="movie__tags">
-                                <p class="tag"></p>
-                                <p class="tag"></p>
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
                         <div class="movie__descriprion">
                             <div class="movie__name">
-                                <h3 class="movie__title"></h3>
-                                <p class="movie__caption"></p>
+                                <h3 class="movie__title">Жутко громко и запредельно близко</h3>
+                                <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
                             </div>
                             <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
                         </div>
                     </li>
-                </template>
-            </ul>
+                    <li class="movie">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="./images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Жизнь кабачка</h3>
+                                <p class="movie__caption">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
+                            </div>
+                            <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </li>
+                    <li class="movie">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="./images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </li>
+                    <li class="movie">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="./images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Жутко громко и запредельно близко</h3>
+                                <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+                            </div>
+                            <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </li>
+
+                    <template id="template-movie">
+                        <li class="movie">
+                            <div class="movie__img">
+                                <img class="movie__poster" src="" alt="">
+                                <div class="movie__tags">
+                                    <p class="tag"></p>
+                                    <p class="tag"></p>
+                                </div>
+                            </div>
+                            <div class="movie__descriprion">
+                                <div class="movie__name">
+                                    <h3 class="movie__title"></h3>
+                                    <p class="movie__caption"></p>
+                                </div>
+                                <a class="movie__trailer" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+            </section>
 
             <section class="mainpage__twoblocks">
                 <div class="mainvideo">
@@ -327,6 +327,25 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup popup_type_login">
+        <div class="login">
+            <button class="popup__button-close popup__button-close_place_login"></button>
+            <h3 class="login__title">Вход</h3>
+            <div class="login__texts">
+                <p class="login__text">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
+                <p class="login__text">Пожалуйста, введите логин и пароль из&nbsp;письма. Если вам не приходило письмо, свяжитесь с&nbsp;вашим куратором.</p>
+            </div>
+            <form class="popup__form popup__form_type_login" name="login" action="#" method="POST" novalidate>
+                <input type="text" name="login" placeholder="Логин" id="place" class="popup__input popup__input_type_login" required minlength="2">
+                <span class="popup__error popup__error_type_login"></span>
+                <input type="password" name="password" placeholder="Пароль" id="place" class="popup__input popup__input_type_password" required minlength="2">
+                <span class="popup__error popup__error_type_password"></span>
+                <a class="login__link" href="#">Забыли пароль?</a>
+                <button type="submit" class="button button_color_darkgray popup__submit-btn popup__submit-btn_type_login">Войти</button>
+            </form>
+        </div>
+    </div>
 
     <script src="./index.js"></script>
 </body>

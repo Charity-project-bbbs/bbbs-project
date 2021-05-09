@@ -15,6 +15,16 @@
     cursor: pointer;
 }
 
+.button_color_darkgray {
+    color: #A7A6A6;
+    border-color: #A7A6A6;
+}
+
+.button:hover {
+    background-color: #E0E0E0;
+}
+
+
 .button_place_footer {
     grid-area: btn;
     margin-right: 46px;
