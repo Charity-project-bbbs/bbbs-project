@@ -46,6 +46,12 @@
     padding: 13px 20px 16px;
     margin-bottom: 20px;
     border: 0;
+    font-family: 'PT Proto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000;
 }
 
 .popup__input::placeholder {

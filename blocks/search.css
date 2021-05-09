@@ -1,0 +1,58 @@
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+.search__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search__item {
+    padding: 15px 0;
+    border-bottom: 0.5px solid #A7A6A6;;
+}
+
+.search__heading {
+    font-family: 'Proto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.search__link {
+    font-family: 'Proto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.search__link:hover {
+    color: #2E2468;
+}
+
+@media screen and (max-width: 768px) {
+    .search__item {
+        padding-bottom: 10px;
+    }
+
+    .search__heading {
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 5px;
+    }
+    
+    .search__link {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

@@ -29,5 +29,9 @@
         margin-top: 25px;
         margin-bottom: 50px;
     }
+
+    .root__section_search {
+        margin-top: 15px;
+    }
     
 }
