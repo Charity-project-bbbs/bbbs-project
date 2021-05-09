@@ -209,6 +209,41 @@
     cursor: pointer;
 }
 
+.header__bottom {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.header__city {
+    margin: 0 75px 0 0;
+    color: #A7A6A6;
+    font-family: 'PT Proto', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.header__change {
+    cursor: pointer;
+}
+
+.header__change:hover {
+    color: #224CFF;
+}
+
+.header__logout {
+    margin: 0;
+    color: #A7A6A6;
+    font-family: 'PT Proto', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header__logout:hover {
+    color: #224CFF;
+}
 
 @media (max-width: 1440px) {
     .header__wrapper {
@@ -284,5 +319,6 @@
         margin-bottom: 50px;
         padding: 0 15px;
     }
+
 }
 

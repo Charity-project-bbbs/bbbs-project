@@ -1,0 +1,36 @@
+@import url(../vendors/normalize.css);
+
+@import url(../vendors/fonts/fonts.css);
+
+@import url(../blocks/root.css);
+
+@import url(../blocks/header.css);
+
+@import url(../blocks/footer.css);
+
+@import url(../blocks/button.css);
+@import url(../blocks/tag.css);
+
+@import url(../blocks/content.css);
+@import url(../blocks/logo.css);
+
+@import url(../blocks/mainpage.css);
+@import url(../blocks/calendar.css);
+@import url(../blocks/movie.css);
+@import url(../blocks/preview-article.css);
+@import url(../blocks/questions.css);
+@import url(../blocks/question.css);
+@import url(../blocks/facebook.css);
+@import url(../blocks/mainvideo.css);
+@import url(../blocks/mainlink.css);
+@import url(../blocks/story.css);
+
+@import url(../blocks/profile-grid.css);
+@import url(../blocks/event-soon.css);
+
+@import url(../blocks/popup.css);
+@import url(../blocks/login.css);
+@import url(../blocks/apivideo.css);
+@import url(../blocks/cities.css);
+
+
