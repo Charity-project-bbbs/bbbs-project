@@ -75,7 +75,11 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: #224CFF;
+    text-decoration: none;
+}
 
+.event-soon__link:hover {
+    color: #2E2468;
 }
 
 .event-soon__about-wrapper {
