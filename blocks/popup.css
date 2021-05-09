@@ -17,6 +17,21 @@
     display: flex;
 }
 
+.popup__success {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;  
+}
+
 .popup__button-close {
     position: absolute;
     top: 20px;

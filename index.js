@@ -1,23 +1,22 @@
-const openButton = document.querySelector('.header__burger-btn')
-const menu = document.querySelector('.header__burger')
-const login = document.querySelector('.header__button-login')
-let isClicked = false
+const openButton = document.querySelector('.header__burger-btn');
+const menu = document.querySelector('.header__burger');
+let isClicked = false;
 
-const popupLogin = document.querySelector('.popup_type_login')
-const loginButton = document.querySelector('.header__button-login')
+const popupLogin = document.querySelector('.popup_type_login');
+const loginButton = document.querySelector('.header__button-login');
 
-const calenderLinks = document.querySelectorAll('.calender-open')
+const calenderLinks = document.querySelectorAll('.calender-open');
 
 openButton.addEventListener('click', () => {
     if (isClicked === false) {
         menu.classList.remove('header__burger_hidden');
         openButton.style.backgroundImage = 'url(../images/close.svg)';
-        login.style.display = 'block';
+        loginButton.style.display = 'block';
         isClicked = true     
     } else {
         menu.classList.add('header__burger_hidden');
         openButton.style.backgroundImage = 'url(../images/burger-menu.svg)';
-        login.style.display = 'none';
+        loginButton.style.display = 'none';
         isClicked = false
     }
 })
@@ -41,10 +40,6 @@ const closePopup = (popup) => {
 const openPopupLogin = () => {
   openPopup(popupLogin);
 }
-
-const openPopupAdd = () => {
-    openPopup(popupLogin);
-  }
 
 loginButton.addEventListener('click', openPopupLogin);
 popupLogin.addEventListener('click', closeWithClick);
