@@ -21,7 +21,7 @@
   }
 
 .event-choice__buttons::-webkit-scrollbar {
-    width: 0.1px;
+    width: 0px;
   }
 
 .event-choice__title {

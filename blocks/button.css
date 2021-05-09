@@ -59,13 +59,6 @@
     }
 }
 
-@media (max-width: 440px) {
-    
-    .button_color_black {
-        margin-bottom: 10px;
-    }
-}
-
 @media (min-width: 320px) {
     
     .button-close {
