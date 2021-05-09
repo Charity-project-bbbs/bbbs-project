@@ -6,7 +6,7 @@ let isClicked = false
 const popupLogin = document.querySelector('.popup_type_login')
 const loginButton = document.querySelector('.header__button-login')
 
-const calendarLink = document.querySelector('.header__list-item_calender')
+const calenderLinks = document.querySelectorAll('.calender-open')
 
 openButton.addEventListener('click', () => {
     if (isClicked === false) {
@@ -46,7 +46,9 @@ const openPopupAdd = () => {
     openPopup(popupLogin);
   }
 
-calendarLink.addEventListener('click', openPopupLogin);
 loginButton.addEventListener('click', openPopupLogin);
 popupLogin.addEventListener('click', closeWithClick);
 
+calenderLinks.forEach((item) => {
+    item.addEventListener('click', openPopupLogin);
+})
