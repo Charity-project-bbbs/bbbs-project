@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/personal-account.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="root">
+        <section class="personal-account">
+            <div class="personal-account__buttons">
+                <!-- Пока текстом/ ссылки или кнопки?-->
+                <p class="personal-account__text">Москва. Изменить город</p>
+                <p class="personal-account__text">Выйти</p>
+            </div>
+
+            <h2 class="personal-account__title">Вы записаны на мероприятия:</h2>
+
+            <div class="personal-account__event">
+                <div class="personal-account__event-wrapper">
+                    <div class="personal-account__event-wrapper_text">
+                        <h3 class="personal-account__subtitle-date">05</h3>
+                        <p class="personal-account__subtitle-month">декабрь</p>
+                    </div>
+                    <p class="personal-account__subtitle-event">Субботний meet up: учимся проходить интевью</p>
+                </div>
+
+                <div class="personal-account__event-wrapper">
+                    <div class="personal-account__event-wrapper_text">
+                        <h3 class="personal-account__subtitle-date">16</h3>
+                        <p class="personal-account__subtitle-month">декабрь</p>
+                    </div>
+                    <p class="personal-account__subtitle-event">Ресурсная группа «Вовлечение в волонтёрство»</p>
+                </div>
+            </div>
+
+            <svg class="personal-account__line" height="1" viewBox="0 0 1170 1" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="2.18557e-08" y1="0.75" x2="1170" y2="0.750102" stroke="#464646" stroke-width="1" />
+            </svg>
+
+            <div class="personal-account__button_add_meet">
+                <button class="button__round_transparent-plus" type="button"></button>
+                <p class="personal-account__button_add_meet_text">Добавить встречу</p>
+            </div>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button personal-account_closed" type="button"></button>
+                    <p class="personal-account__photo-text personal-account_closed">Загрузить фото</p>
+                    <img class="personal-account__photo_opened" src="./images/photo-personal-account.png" alt="#">
+                </div>
+                <div class="personal-account__inputs personal-account__inputs_added">
+                    <input class="personal-account__input personal-account__input_type_place personal-account_closed"
+                        type="text" placeholder="Место встречи" name="place">
+                    <h2 class="personal-account__input_text_place">Парк Горького</h2>
+
+                    <input
+                        class="personal-account__input personal-account__input_type_date personal-account_closed"
+                        type="date" placeholder="Дата __.__.____" name="date">
+                        <div class="personal-account__event-wrapper_text_place_form">
+                            <h3 class="personal-account__subtitle-date">16</h3>
+                            <p class="personal-account__subtitle-month personal-account__subtitle-month_place_form">декабрь</p>
+                        </div>
+
+                    <textarea class="personal-account__textarea personal-account__textarea_type_description personal-account_closed" 
+                        type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                        <p class="personal-account__textarea-text">
+                            Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. 
+                            Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось.  
+                            Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. 
+                            Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. чувства вы испытывали, что понравилось не понравилось. 
+                        </p>
+
+                     <div class="personal-account__feedback personal-account__feedback_added">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good personal-account__feedback-button_good_type_active"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal personal-account_closed"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad personal-account_closed"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text personal-account__feedback-text_type_good">Было классно!</p>
+                    </div>
+
+                    <div class="personal-account__submit personal-account__submit-added">
+                        <p class="personal-account__feedback-delete_text">Поделиться с куратором</p>
+                        <p class="personal-account__feedback-delete_text">Редактировать</p>
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_black-nonactive personal-account_closed" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button personal-account_closed" type="button"></button>
+                    <p class="personal-account__photo-text personal-account_closed">Загрузить фото</p>
+                    <img class="personal-account__photo_opened" src="./images/photo-personal-account.png" alt="#">
+                </div>
+                <div class="personal-account__inputs personal-account__inputs_added">
+                    <input class="personal-account__input personal-account__input_type_place personal-account_closed"
+                        type="text" placeholder="Место встречи" name="place">
+                    <h2 class="personal-account__input_text_place">Парк Горького</h2>
+
+                    <input
+                        class="personal-account__input personal-account__input_type_date personal-account_closed"
+                        type="date" placeholder="Дата __.__.____" name="date">
+                        <div class="personal-account__event-wrapper_text_place_form">
+                            <h3 class="personal-account__subtitle-date">16</h3>
+                            <p class="personal-account__subtitle-month personal-account__subtitle-month_place_form">декабрь, 2020</p>
+                        </div>
+
+                    <textarea class="personal-account__textarea personal-account__textarea_type_description personal-account_closed" 
+                        type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                        <p class="personal-account__textarea-text">
+                            Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. 
+                            Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось.  
+                            Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. 
+                            Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. чувства вы испытывали, что понравилось не понравилось. 
+                        </p>
+
+                     <div class="personal-account__feedback personal-account__feedback_added">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good personal-account__feedback-button_good_type_active"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal personal-account_closed"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad personal-account_closed"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text personal-account__feedback-text_type_good">Было классно!</p>
+                    </div>
+
+                    <div class="personal-account__submit personal-account__submit-added">
+                        <p class="personal-account__feedback-delete_text">Поделиться с куратором</p>
+                        <p class="personal-account__feedback-delete_text">Редактировать</p>
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_black-nonactive personal-account_closed" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -67,6 +67,19 @@
     color: #A7A6A6;
 }
 
+.button__round_transparent-plus {
+    background-image: url(../images/trans-blue-plus.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*CALENDAR-POPUP*/
 .button-close {
@@ -97,6 +110,12 @@
     
     .button_color_black {
         margin-bottom: 10px;
+    }
+
+    .button_color_blue {
+        padding: 11px 15px 8px 15px;
+        font-size: 12px;
+        line-height: 17px;
     }
 }
 
