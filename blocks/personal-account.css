@@ -1,0 +1,385 @@
+.personal-account {
+    margin: 0;
+    padding: 0;
+    padding-right: 9.4%;
+    padding-left: 9.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-account__buttons {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.personal-account__text {
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #A7A6A6;
+}
+
+.personal-account__text:last-of-type {
+    margin-right: 0;
+}
+
+.personal-account__title {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.personal-account__line {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    color: #464646;
+}
+
+
+/*---------------------------*/
+.personal-account__form {
+    width: 100%;
+    max-height: 472px;
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 40% 60%);
+}
+
+.personal-account__photo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.personal-account__photo-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #A7A6A6;
+}
+
+.personal-account__button {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    background-image: url(../images/personal-account-btn-add-photo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.personal-account__inputs {
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 54% auto 37%;
+    grid-template-rows: 1fr 286px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.personal-account__input {
+    margin-bottom: 20px;
+    padding: 13px 20px 16px 20px;
+    background-color: #F3F2F2;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.personal-account__input_type_place {
+    grid-column: 1/2;
+}
+
+.personal-account__input_type_date {
+    /* width: 30.5%; */
+    /* margin-left: 4%; */
+    grid-column: 3/4;
+}
+
+.personal-account__textarea {
+    display: block;
+    /* width: 93%;
+    height: 286px; */
+    margin: 0;
+    padding: 13px 20px 16px 20px;
+    background-color: #F3F2F2;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+    grid-column: 1/4;
+}
+
+
+/*---------------------------*/
+.personal-account__feedback {
+    /* max-width: 45%; */
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column: 1/2;
+}
+
+.personal-account__feedback-button {
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.personal-account__feedback-button_good {
+    background-image: url(../images/feedback-good-black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.personal-account__feedback-button_normal {
+    background-image: url(../images/feedback-normal-black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.personal-account__feedback-button_bad {
+    background-image: url(../images/feedback-bad-black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.personal-account__feedback-button_good_type_active {
+    background-image: url(../images/feedback-good-color.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.personal-account__feedback-button_normal_type_active {
+    background-image: url(../images/feedback-normal-color.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.personal-account__feedback-button_bad_type_active {
+    background-image: url(../images/feedback-bad-color.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.personal-account__feedback-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A7A6A6;
+    text-align: left;
+}
+
+.personal-account__feedback-text_type_good {
+    color: #8CDD94;
+}
+
+.personal-account__feedback-text_type_normal {
+    color: #464646;
+}
+
+.personal-account__feedback-text_type_bad {
+    color: #FF8585;
+}
+
+.personal-account__feedback-delete_text {
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #A7A6A6;
+}
+
+.personal-account__submit {
+    /* max-width: 27%; */
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 3/4;
+}
+
+/*---------------------------*/
+@media (max-width: 1150px) {
+    
+    .personal-account__form {
+        max-height: 100%;
+        grid-template-columns: 70%;
+        grid-template-rows: 300px 600px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .personal-account__inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personal-account__textarea {
+        height: 286px;
+    }
+
+    .personal-account__submit {
+        max-width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    
+    .personal-account__text {
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .personal-account {
+        padding-right: 4.6%;
+        padding-left: 4.6%;
+    }
+    
+    .personal-account__title {
+        margin-bottom: 30px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .personal-account__line {
+        margin-bottom: 20px;
+    }
+
+    .personal-account__button {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 490px) {
+    
+    .personal-account__form {
+        max-height: 100%;
+        grid-template-columns: 290px;
+        grid-template-rows: 291px 404px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .personal-account__textarea {
+        height: 120px;
+        padding: 10px 20px 10px 20px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .personal-account__inputs {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .personal-account__input {
+        margin-bottom: 10px;
+    }
+
+    .personal-account__feedback {
+        margin-top: 20px;
+    }
+
+    .personal-account__feedback-button {
+        margin-right: 10px;
+    }
+
+    .personal-account__photo-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .personal-account__photo-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .personal-account__input {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .personal-account__feedback-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .personal-account__feedback-delete_text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

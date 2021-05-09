@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/personal-account.css">
+    <title>Document</title>
+</head>
+
+<body class="root">
+    <header class="header">
+    </header>
+
+    <main>
+        <section class="personal-account">
+            <div class="personal-account__buttons">
+                <!-- Пока текстом/ ссылки или кнопки?-->
+                <p class="personal-account__text">Изменить ваш город</p>
+                <p class="personal-account__text">Выйти</p>
+            </div>
+            <h2 class="personal-account__title">У вас нет записи на мероприятия</h2>
+            <svg class="personal-account__line" height="1" viewBox="0 0 1170 1" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="2.18557e-08" y1="0.75" x2="1170" y2="0.750102" stroke="#464646" stroke-width="1" />
+            </svg>
+            <h2 class="personal-account__title">Составьте историю вашей дружбы с младшим. Эта страница доступна только
+                вам.
+            </h2>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button" type="button"></button>
+                    <p class="personal-account__photo-text">Загрузить фото</p>
+                </div>
+                <div class="personal-account__inputs">
+                    <input class="personal-account__input personal-account__input_type_place" type="text"
+                        placeholder="Место встречи" name="place">
+                    <input class="personal-account__input personal-account__input_type_date" type="date"
+                        placeholder="Дата __.__.____" name="date">
+                        <textarea class="personal-account__textarea personal-account__textarea_type_description" type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                     <div class="personal-account__feedback">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text">Оцените проведенное время</p>
+                    </div>
+                    <div class="personal-account__submit">
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_black-nonactive" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button" type="button"></button>
+                    <p class="personal-account__photo-text">Загрузить фото</p>
+                </div>
+                <div class="personal-account__inputs">
+                    <input class="personal-account__input personal-account__input_type_place" type="text"
+                        placeholder="Место встречи" name="place">
+                    <input class="personal-account__input personal-account__input_type_date" type="date"
+                        placeholder="Дата __.__.____" name="date">
+                        <textarea class="personal-account__textarea personal-account__textarea_type_description" type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                     <div class="personal-account__feedback">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good personal-account__feedback-button_good_type_active"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text personal-account__feedback-text_type_good">Было классно!</p>
+                    </div>
+                    <div class="personal-account__submit">
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_blue" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+
+    </footer>
+
+</body>
+
+</html>
