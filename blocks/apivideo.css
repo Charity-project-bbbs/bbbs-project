@@ -33,7 +33,8 @@
 .apivideo__video {
     width: 100%;
     max-width: 1710px;
-    height: 962px;
+    height: 70vh;
+    max-height: 962px;
     border: 0;
     margin-bottom: 30px;
     border-radius: 30px;
