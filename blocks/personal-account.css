@@ -673,4 +673,8 @@
     .personal-account__feedback-delete_text:nth-of-type(3) {
         margin-top: 10px;
     }
+    
+    .personal-account__event-wrapper {
+        max-height: 108px;
+    }
 }
