@@ -80,6 +80,12 @@
             </div>
         </section>
 
+        <section class="recommendation recommendation_place_page">
+            <div class="recommendation__texts">
+                <p class="recommendation__text recommendation__text_place_page">Если вы были в интересном месте и хотите порекомендовать его другим&nbsp;наставникам –
+                    <a class="recommendation__text-link">заполните&nbsp;форму</a>, и мы добавим вашу&nbsp;рекомендацию.</p>
+                </section>
+
         <section class="event-soon-card">
             <div class="event-soon">
                 <div class="event-soon__content-wrapper">
@@ -173,7 +179,9 @@
                             <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
                             <div class="event-soon__caption event-soon__caption_without_tag">
                                 <div class="event-soon__title">Название места</div>
-                                <div class="event-soon__subtitle">Длинный&nbsp;адрес&nbsp;места&nbsp;в&nbsp;несколько&nbsp;строк, длинный&nbsp;адрес места. </div>
+                                <div class="event-soon__subtitle">
+                                    Длинный&nbsp;адрес&nbsp;места&nbsp;в&nbsp;несколько&nbsp;строк, длинный&nbsp;адрес
+                                    места. </div>
                             </div>
                             <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
                         </div>
@@ -318,16 +326,60 @@
         </div>
     </div>
 
-    <section class="popup popup__success">
+    <div class="popup popup_type_recommendation">
+        <div class="recommendation">
+            <div class="recommendation__texts">
+                <p class="recommendation__text">Если вы были в интересном месте и хотите порекомендовать его другим наставникам –
+                    <a class="recommendation__text-link recommendation__text-link_opened">заполните форму</a>, и мы добавим вашу&nbsp;рекомендацию.</p>
+            </div>
+            <form class="popup__form popup__form_type_recommendation" name="recommendation" action="#" method="POST"
+                novalidate>
+                <div class="popup__inputs">
+                    <input type="text" name="name" placeholder="Название" id="name"
+                        class="popup__input popup__input_type_name" required minlength="2">
+                    <input class="popup__input popup__input_type_url" type="url" placeholder="Сайт" name="date">
+                    <input class="popup__input popup__input_type_address" type="text" placeholder="Адрес*"
+                        name="address">
+                    <div class="popup__input popup__input_type_boy">
+                        <input class="" type="checkbox" placeholder="Мальчик" name="boy">
+                        <label>Мальчик</label>
+                    </div>
+                    <div class="popup__input popup__input_type_girl">
+                        <input type="checkbox" placeholder="Девочка" name="girl">
+                        <label>Девочка</label>
+                    </div>
+                    <input class="popup__input popup__input_type_age" type="number" placeholder="Возраст*" name="age">
+                    <select class="popup__select popup__select_type_relax" placeholder="Тип отдыха*">
+                        <option>Активный</option>
+                        <option>Развлекательный</option>
+                        <option>Познавательный</option>
+                    </select>
+                    <textarea class="popup__textarea popup__textarea_type_description" type="text"
+                        placeholder="Комментарий*"
+                        name="description"></textarea>
+                     <div class="popup__feedback">
+                        <button class="popup__feedback-button" type="button" name="good"></button>
+                        <p class="popup__feedback-text">Добавить&nbsp;фото</p>
+                    </div>
+                    <div class="popup__submit">
+                        <button class="button button_color_darkgray popup__submit-btn" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup__success">
         <div class="success">
             <button class="popup__button-close"></button>
             <img class="success__image" src="./images/events-success-popup.svg" alt="#">
-            <h2 class="success__title success__title_type_event">Спасибо, мы проверим информацию, и скоро все пользователи смогут
+            <h2 class="success__title success__title_type_event">Спасибо, мы проверим информацию, и скоро все
+                пользователи смогут
                 увидеть вашу рекомендацию
             </h2>
-    </section>
+        </div>
 
-    <script src="./index.js"></script>
+        <script src="./index.js"></script>
 </body>
 
 </html>

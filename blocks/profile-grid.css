@@ -2,15 +2,12 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat( auto-fit ,minmax(0,1fr));
-    /* grid-column-gap: 30px; */
     grid-row-gap: 0;
 }
 
 .profile-grid__column_size_wide {
     grid-column-start: span 8;
 }
-
-
 
 .profile-grid__column_size_thin {
     grid-column-start: span 4;
