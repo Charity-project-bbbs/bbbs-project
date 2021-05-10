@@ -2,13 +2,11 @@ const openButton = document.querySelector('.header__burger-btn');
 const menu = document.querySelector('.header__burger');
 let isClicked = false;
 
-const popupLogin = document.querySelector('.popup_type_login');
 const loginButton = document.querySelector('.header__button-login');
 
 const popupRecommendation = document.querySelector('.popup_type_recommendation');
 const recommendationButton = document.querySelector('.recommendation__text-link');
 
-const calenderLinks = document.querySelectorAll('.calender-open');
 
 openButton.addEventListener('click', () => {
     if (isClicked === false) {
@@ -39,21 +37,10 @@ const openPopup = (popup) => {
 const closePopup = (popup) => {
     popup.classList.remove('popup_opened');
 }
-  
-const openPopupLogin = () => {
-  openPopup(popupLogin);
-}
 
 const openPopupRecommendation = () => {
   openPopup(popupRecommendation);
 }
 
-loginButton.addEventListener('click', openPopupLogin);
-popupLogin.addEventListener('click', closeWithClick);
-
 recommendationButton.addEventListener('click', openPopupRecommendation);
 popupRecommendation.addEventListener('click', closeWithClick);
-
-calenderLinks.forEach((item) => {
-    item.addEventListener('click', openPopupLogin);
-})
