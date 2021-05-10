@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="#"></a>
+            <button type="button" class="header__burger-btn"></button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <nav class="header__action">
+                <a class="header__button-search" href="#"></a>
+                <button type="button" class="header__button-login header__button-login_unauthorized"></button>
+            </nav>
+        </div>
+        <div class="header__burger header__burger_hidden">
+            <div class="header__burger-wrapper">
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
+                        <li class="header__burger-item"><a href="#"
+                                class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Читать и смотреть</a>
+                        </li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="content">
+
+        <section class="event-choice">
+            <h1 class="heading heading_place_articles">Статьи</h1>
+        </section>
+
+        <section class="event-soon-card">
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="profile-grid">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_wide event-soon__description event-soon__description_size_big">
+                            <div class="event-soon__caption">
+                                <div class="event-soon__title">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» –
+                                    для чего нужен переходный возраст</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <img src="./images/event-soon.jpg" class="event-soon__img" alt="Локация">
+                            <a href="#" target="_blank" class="event-soon__link">читать на сайте</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_big">
+                            <article class="event-article event-article_size_big">
+                                <p
+                                    class="event-article__paragraph event-article__paragraph_size_big event-article__place_articles">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph event-article__paragraph_size_big">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+        </section>
+
+        <section class="events-grid">
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_green event-soon__description_size_small">
+                            <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Причины подростковой агрессии</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_size_small">
+                            <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Самоубийство в подростковом возрасте. Интервью с
+                                    психологом</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_pink event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Причины подростковой агрессии</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Фотосессия на природе</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_blue event-soon__description_size_small">
+                            <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Девиантное повидение детей-сирот</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_pink event-soon__description_size_small">
+                            <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» –
+                                    для чего нужен переходный</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_green event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Самоубийство в подростковом возрасте. Интервью с
+                                    психологом</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Причины подростковой агрессии</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_green event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Самоубийство в подростковом возрасте. Интервью с
+                                    психологом</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_blue event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Причины подростковой агрессии</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_pink event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Девиантное повидение детей-сирот</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_blue event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» –
+                                    для чего нужен переходный</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="event-soon">
+                <div class="event-soon__content-wrapper">
+                    <section class="events-grid__container">
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_size_small">
+                            <p class="tag tag_place_event tag_disabled">Выбор наставника</p>
+                            <div class="event-soon__caption event-soon__caption_without_tag">
+                                <div class="event-soon__title">Самоубийство в подростковом возрасте. Интервью с
+                                    психологом</div>
+                                <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                            </div>
+                            <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                        </div>
+
+                        <div
+                            class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                            <article class="event-article event-article_size_small">
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                    В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                    а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                    в&nbsp;несколько абзацев.
+                                </p>
+                                <p class="event-article__paragraph">
+                                    Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                    ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                    количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                    потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="event-choice">
+            <div class="event-choice__buttons">
+                <button class="button  button_color_black" type="button">1</button>
+                <button class="button button_disabled" type="button">2</button>
+                <button class="button button_disabled" type="button">3</button>
+                <button class="button button_disabled" type="button">4</button>
+                <button class="button button_disabled" type="button">5</button>
+                <button class="button button_disabled" type="button">...</button>
+                <button class="button button_disabled" type="button">18</button>
+                <button class="event-choice__next-button"></button>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="logo logo_place_footer" href="#">
+                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            </a>
+            <button type="button" class="button button_place_footer">Помочь деньгами</button>
+            <div class="footer__navigation">
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_nav">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">О проекте</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link calender-open">Календарь</a>
+                        </li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Куда пойти</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Вопросы</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Читать и смотреть</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Права детей</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_social">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__about">
+                <p class="footer__copyright">&#169; Старшие Братья Старшие Сестры</p>
+                <div class="footer__develop">
+                    <p class="footer__develop-text">Разработка &mdash; студенты <a class="footer__develop-accent"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></p>
+                    <p class="footer__develop-text">Концепия и дизайн &mdash; <a class="footer__develop-accent"
+                            href="https://krkr.design/">krkr.design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup popup_type_login">
+        <div class="login">
+            <button class="popup__button-close popup__button-close_place_login"></button>
+            <h3 class="login__title">Вход</h3>
+            <div class="login__texts">
+                <p class="login__text">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие
+                    Сёстры».</p>
+                <p class="login__text">Пожалуйста, введите логин и пароль из&nbsp;письма. Если вам не приходило письмо,
+                    свяжитесь с&nbsp;вашим куратором.</p>
+            </div>
+            <form class="popup__form popup__form_type_login" name="login" action="#" method="POST" novalidate>
+                <input type="text" name="login" placeholder="Логин" id="place"
+                    class="popup__input popup__input_type_login" required minlength="2">
+                <span class="popup__error popup__error_type_login"></span>
+                <input type="password" name="password" placeholder="Пароль" id="place"
+                    class="popup__input popup__input_type_password" required minlength="2">
+                <span class="popup__error popup__error_type_password"></span>
+                <a class="login__link" href="#">Забыли пароль?</a>
+                <button type="submit"
+                    class="button button_color_darkgray popup__submit-btn popup__submit-btn_type_login">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup__success">
+        <div class="success">
+            <button class="popup__button-close"></button>
+            <img class="success__image" src="./images/events-success-popup.svg" alt="#">
+            <h2 class="success__title success__title_type_event">Спасибо, мы проверим информацию, и скоро все
+                пользователи смогут
+                увидеть вашу рекомендацию
+            </h2>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

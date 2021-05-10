@@ -59,6 +59,11 @@
     margin-bottom: 0;
 }
 
+.event-article__place_articles {
+    margin-top: 124px;
+}
+
+
 @media (max-width: 1400px) {
     .event-article_size_big {
         overflow-y: scroll;
@@ -80,6 +85,10 @@
         margin-left: 24.83px;
         font-size: 15px;
         line-height: 21px;
+    }
+
+    .event-article__place_articles {
+        margin-top: 0;
     }
 } 
 
