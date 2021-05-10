@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .pagination__link {
     padding: 10px 20.5px;
     text-decoration: none;
@@ -51,14 +50,12 @@
         line-height: 17px;
         letter-spacing: 0.2px;
     }
-
     .pagination__forward {
         width: 20px;
         height: 20px;
         margin-left: 19px;
     }
 }
-
 @media (max-width: 640px) {
     .pagination__forward {
         margin-left: 4px;
