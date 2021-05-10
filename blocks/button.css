@@ -56,16 +56,25 @@
     color: white;
 }
 
+/*-----trans round-----*/
+.button__round_transparent-plus {
+    background-image: url(../images/trans-blue-plus.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*-----BLACK-----*/
 .button_color_black {
     border: 1px black solid;
     color: black;
-}
-
-.button_color_black_active {
-    background-color: black;
-    color: rgba(243, 242, 242, 1);
 }
 
 .button_color_black:hover {
@@ -135,9 +144,6 @@
         font-size: 12px;
         line-height: 17px;
     }
-}
-
-@media (max-width: 440px) {
 
     .button_color_blue {
         padding: 11px 15px 8px 15px;

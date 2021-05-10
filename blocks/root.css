@@ -1,38 +1,9 @@
 .root {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'PT Root', 'Proto', sans-serif;
     color: black;
     background-color: rgba(243, 242, 242, 1);
+    letter-spacing: 0.2px;
     box-sizing: border-box;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.root__section {
-    margin: 80px auto 120px;
-}
-
-@media (max-width: 1024px) {
-    
-    .root__section {
-        margin-top: 45px;
-        margin-bottom: 100px;
-    }
-    
-}
-
-@media (max-width: 640px) {
-    
-    .root__section {
-        margin-top: 25px;
-        margin-bottom: 50px;
-    }
-
-    .root__section_search {
-        margin-top: 15px;
-    }
-    
 }

@@ -8,9 +8,105 @@
     width: calc(100% - 450px);
 }
 
+.questions__section {
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.questions__page-list {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.questions__buttons {
+    max-width: 1074px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.questions__articles-grid {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 970px);
+    row-gap: 30px;
+}
+
+.questions__article {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.questions__article-wrapper {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+}
+
+.questions__artice-title {
+    width: 770px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+}
+
+.questions__category {
+    margin: 0;
+    padding: 2px 7px 2px 7px;
+    text-transform: uppercase;
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #464646;
+    background-color: #F3F2F2;
+    border-radius: 15px;
+}
+
+
 @media (max-width: 1440px) {
     .questions {
         width: calc(100% - 400px);
+    }
+}
+
+@media (max-width: 1250px) {
+    
+    .questions__title {
+        font-size: 37px;
+        line-height: 39px;
+    }
+
+    .questions__artice-title {
+        font-size: 19px;
+        line-height: 23px;
     }
 }
 
@@ -19,10 +115,29 @@
         width: calc(100% - 400px);
         grid-template-rows: repeat(2, max-content);
     }
+
+    .questions__section {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .questions__page-list {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 760px) {
     .questions {
         width: 100%;
     }
+
+    .questions__section {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .questions__page-list {
+        margin-top: 30px;
+    }
 }
+
