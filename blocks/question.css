@@ -7,11 +7,6 @@
     position: relative;
 }
 
-.question_flex {
-    display: flex;
-    flex-direction: row;
-}
-
 .question__title {
     max-width: 770px;
     font-family: 'Proto', Arial, sans-serif;
