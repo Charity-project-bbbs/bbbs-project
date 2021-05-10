@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/personal-account.css">
+    <title>Личный кабаинет</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="./index.html"></a>
+            <button type="button" class="header__burger-btn"></button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="./calendar.html" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <nav class="header__action">
+                <a class="header__button-search" href="#"></a>
+                <a type="button" href="./index.html" class="header__button-login header__button-login_authorized"></button>
+            </nav>
+        </div>
+        <div class="header__burger header__burger_hidden">
+            <div class="header__burger-wrapper">
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
+                        <li class="header__burger-item"><a href="./calendar.html" class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__bottom">
+                <p class="header__city">Москва. <span class="header__change">Изменить город</span></p>
+                <p class="header__logout">Выйти</p>
+            </div>
+        </div>
+ 
+    </header>
+
+    <main>
+        <section class="personal-account">
+            <div class="personal-account__buttons">
+                <!-- Пока текстом/ ссылки или кнопки?-->
+                <p class="personal-account__text">Изменить ваш город</p>
+                <p class="personal-account__text">Выйти</p>
+            </div>
+            <h2 class="personal-account__title">У вас нет записи на мероприятия</h2>
+            <svg class="personal-account__line" height="1" viewBox="0 0 1170 1" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="2.18557e-08" y1="0.75" x2="1170" y2="0.750102" stroke="#464646" stroke-width="1" />
+            </svg>
+            <h2 class="personal-account__title">Составьте историю вашей дружбы с младшим. Эта страница доступна только
+                вам.
+            </h2>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button" type="button"></button>
+                    <p class="personal-account__photo-text">Загрузить фото</p>
+                </div>
+                <div class="personal-account__inputs">
+                    <input class="personal-account__input personal-account__input_type_place" type="text"
+                        placeholder="Место встречи" name="place">
+                    <input class="personal-account__input personal-account__input_type_date" type="date"
+                        placeholder="Дата __.__.____" name="date">
+                        <textarea class="personal-account__textarea personal-account__textarea_type_description" type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                     <div class="personal-account__feedback">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text">Оцените проведенное время</p>
+                    </div>
+                    <div class="personal-account__submit">
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_black-nonactive" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+
+            <form class="personal-account__form">
+                <div class="personal-account__photo">
+                    <button class="personal-account__button" type="button"></button>
+                    <p class="personal-account__photo-text">Загрузить фото</p>
+                </div>
+                <div class="personal-account__inputs">
+                    <input class="personal-account__input personal-account__input_type_place" type="text"
+                        placeholder="Место встречи" name="place">
+                    <input class="personal-account__input personal-account__input_type_date" type="date"
+                        placeholder="Дата __.__.____" name="date">
+                        <textarea class="personal-account__textarea personal-account__textarea_type_description" type="text"
+                        placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                        name="description"></textarea>
+                     <div class="personal-account__feedback">
+                        <button class="personal-account__feedback-button personal-account__feedback-button_good personal-account__feedback-button_good_type_active"
+                            type="button" name="good"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_normal"
+                            type="button" name="normal"></button>
+                        <button class="personal-account__feedback-button personal-account__feedback-button_bad"
+                            type="button" name="bad"></button>
+                        <p class="personal-account__feedback-text personal-account__feedback-text_type_good">Было классно!</p>
+                    </div>
+                    <div class="personal-account__submit">
+                        <p class="personal-account__feedback-delete_text">Удалить</p>
+                        <button class="button button_color_blue" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="logo logo_place_footer" href="#">
+                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            </a>
+            <button type="button" class="button button_place_footer">Помочь деньгами</button>
+            <div class="footer__navigation">
+            <nav class="footer__menu">
+                <ul class="footer__list footer__list_type_nav">
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">О проекте</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Календарь</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Куда пойти</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Вопросы</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Читать и смотреть</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Права детей</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Истории</a></li>
+                </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_social">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__about">
+                <p class="footer__copyright">&#169; Старшие Братья Старшие Сестры</p>
+                <div class="footer__develop">
+                    <p class="footer__develop-text">Разработка 	&mdash; студенты <a class="footer__develop-accent"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></p>
+                    <p class="footer__develop-text">Концепия и дизайн &mdash; <a class="footer__develop-accent"
+                            href="https://krkr.design/">krkr.design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
