@@ -77,9 +77,19 @@
     color: black;
 }
 
+.button_color_black_active {
+    background-color: black;
+    color: rgba(243, 242, 242, 1);
+}
+
 .button_color_black:hover {
     background-color: #E0E0E0;
 }
+
+.button_color_black_active:hover {
+    background-color: #2E2468;
+}
+
 
 .button_color_black:active {
     background-color: black;
