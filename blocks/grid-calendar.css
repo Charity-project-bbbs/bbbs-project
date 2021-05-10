@@ -1,5 +1,7 @@
 .grid-calendar {
     max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 
 .grid-calendar__title {
@@ -42,13 +44,13 @@
 }
 
 
-@media (max-width: 1440px) {
-    
-
-}
-
 @media (max-width: 1024px) {
     
+    .grid-calendar {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
     .grid-calendar__title {
         font-size: 37px;
         line-height: 39px;
@@ -80,6 +82,11 @@
 
 @media (max-width: 440px) {
     
+    .grid-calendar {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
     .grid-calendar__buttons {
         max-width: 290px;
         flex-wrap: wrap;
