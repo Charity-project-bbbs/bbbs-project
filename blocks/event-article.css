@@ -1,6 +1,8 @@
-.event-article{
+.event-article {
     margin: 47px 15px 69px 30px;
     overflow-x: hidden;
+    scrollbar-color: #E8E6E6 transparent;
+    scrollbar-width: thin;
 }
 
 .event-article_size_small {
