@@ -10,3 +10,28 @@
     flex-direction: column;
     min-width: 320px;
 }
+.root__section {
+    margin: 80px auto 120px;
+}
+
+@media (max-width: 1024px) {
+    
+    .root__section {
+        margin-top: 45px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+    .root__section {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .root__section_search {
+        margin-top: 15px;
+    }
+    
+}
