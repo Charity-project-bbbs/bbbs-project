@@ -24,26 +24,10 @@
     width: 0px;
   }
 
-.event-choice__title {
-    margin: 0 auto;
-    margin-bottom: 40px;
-    padding: 0;
-    font-weight: 300;
-    font-size: 74px;
-    line-height: 80px;
-    text-align: center;
-}
-
 @media (max-width: 1024px) {
     .event-choice {
         padding-top: 30px;
         padding-bottom: 50px;
-    }
-
-    .event-choice__title {
-        font-size: 37px;
-        line-height: 39px;
-        margin-bottom: 20px;
     }
 
     .event-choice__buttons {
@@ -57,9 +41,6 @@
         padding-bottom: 30px;
     }
     
-    .event-choice__title {
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 440px) {
