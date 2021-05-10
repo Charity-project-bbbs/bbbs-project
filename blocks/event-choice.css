@@ -1,12 +1,10 @@
 .event-choice {
     max-width: 100%;
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 @media (max-width: 1024px) {
     .event-choice {
-        padding-top: 30px;
         padding-bottom: 50px;
     }
 }
@@ -21,7 +19,6 @@
 
 @media (max-width: 440px) {
     .event-choice {
-        padding-top: 10px;
         padding-bottom: 30px;
     }
 }

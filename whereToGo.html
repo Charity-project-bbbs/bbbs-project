@@ -17,9 +17,11 @@
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
-                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a>
+                    </li>
                     <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
-                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и
+                            смотреть</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
                 </ul>
@@ -35,10 +37,14 @@
                 <nav class="header__menu-burger">
                     <ul class="header__burger-list">
                         <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
-                        <li class="header__burger-item"><a href="#" class="header__burger-link calender-open">Календарь</a></li>
-                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
-                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
-                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="#"
+                                class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда
+                                пойти</a></li>
+                        <li class="header__burger-item"><a href="./questions.html"
+                                class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать
+                                и смотреть</a></li>
                         <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
                         <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
                     </ul>
@@ -53,7 +59,7 @@
                 </nav>
             </div>
         </div>
- 
+
     </header>
 
     <main class="content root__section">
@@ -61,7 +67,7 @@
         <section class="event-choice">
             <h1 class="heading">Куда пойти</h1>
             <div class="buttons-scroll buttons-scroll_place_event">
-                <button class="button button_color_black" type="button">Все</button>
+                <button class="button button_color_black button_color_black_active" type="button">Все</button>
                 <button class="button button_color_black" type="button">Выбор наставников</button>
                 <button class="button button_color_black" type="button">Музеи</button>
                 <button class="button button_color_black" type="button">Парки</button>
@@ -119,6 +125,7 @@
                         </div>
                     </section>
                 </div>
+            </div>
         </section>
 
         <section class="events-grid">
@@ -303,10 +310,10 @@
                     свяжитесь с&nbsp;вашим куратором.</p>
             </div>
             <form class="popup__form popup__form_type_login" name="login" action="#" method="POST" novalidate>
-                <input type="text" name="login" placeholder="Логин" id="place"
-                    class="popup__input popup__input_type_login" required minlength="2">
+                <input type="text" name="login" placeholder="Логин" class="popup__input popup__input_type_login"
+                    required minlength="2">
                 <span class="popup__error popup__error_type_login"></span>
-                <input type="password" name="password" placeholder="Пароль" id="place"
+                <input type="password" name="password" placeholder="Пароль"
                     class="popup__input popup__input_type_password" required minlength="2">
                 <span class="popup__error popup__error_type_password"></span>
                 <a class="login__link" href="#">Забыли пароль?</a>
@@ -327,7 +334,7 @@
         </div>
     </div>
 
-        <script src="./index.js"></script>
+    <script src="./scripts/whereToGo.js"></script>
 </body>
 
 </html>
