@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/readAndWatch.css">
+    <title>Document</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="./index.html"></a>
+            <button type="button" class="header__burger-btn"></button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item header__list-item_guide"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a>
+                        <ul class="raw-menu">
+                            <li class="raw-menu__item"><a class="raw-menu__link" href="./guidepage.html">Справочник</a></li>
+                            <li class="raw-menu__item"><a class="raw-menu__link" href="#">Видео</a></li>
+                            <li class="raw-menu__item"><a class="raw-menu__link" href="#">Старшие</a></li>
+                            <li class="raw-menu__item"><a class="raw-menu__link" href="./films.html">Фильмы</a></li>
+                            <li class="raw-menu__item"><a class="raw-menu__link" href="./books.html">Книги</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <nav class="header__action">
+                <a class="header__button-search" href="#"></a>
+                <button type="button" class="header__button-login header__button-login_unauthorized"></button>
+            </nav>
+        </div>
+        <div class="header__burger header__burger_hidden">
+            <div class="header__burger-wrapper">
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+ 
+    </header>
+
+    <main class="content root__section raw">
+        <section class="raw__section">
+            <div class="readwatch">
+                <a class="readwatch__heading" href="./guidepage.html">Справочник</a>
+                <div class="readwatch__pagination">
+                   <button class="readwatch__back"></button>
+                   <button class="readwatch__forward"></button>
+                </div>
+            </div>
+            <ul class="guide">
+                <li class="guide__item">
+                    <a class="mainlink" href="#"></a>
+                    <div class="guide__img-wrapper">
+                        <img class="guide__img" src="./images/boys.png" alt="">
+                    </div>
+                    <p class="guide__caption">Психологические особенности детей-сирот</p>
+                </li>
+                <li class="guide__item">
+                    <a class="mainlink" href="#"></a>
+                    <div class="guide__img-wrapper">
+                        <img class="guide__img guide__img_semiround" src="./images/caps.png" alt="">
+                    </div>
+                    <p class="guide__caption">Социальная адаптация</p>
+                </li>
+                <li class="guide__item">
+                    <a class="mainlink" href="#"></a>
+                    <div class="guide__img-wrapper">
+                        <img class="guide__img guide__img_semiround" src="./images/event-soon.jpg" alt="">
+                    </div>
+                    <p class="guide__caption">Особенности социально дезадаптивных детей</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="raw__section">
+            <div class="readwatch">
+                <a class="readwatch__heading" href="#">Видео</a>
+                <div class="readwatch__pagination">
+                    <button class="readwatch__back"></button>
+                   <button class="readwatch__forward"></button>
+                </div>
+            </div>
+            <ul class="movies">
+                <li class="movie movie__video">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/video1.png" alt="">
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Меняется смысл&nbsp;&mdash; меняется жизнь</h3>
+                            <p class="movie__caption">Прямой эфир с актрисой театра и кино Эмилией Спивак</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть видео</a>
+                    </div>
+                </li>
+                <li class="movie movie__video">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/video2.png" alt="">
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Что в силах волонтера-наставника?</h3>
+                            <p class="movie__caption">Иван Рустаев, волонтер-наставник</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть видео</a>
+                    </div>
+                </li>
+                <li class="movie movie__video">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/video3.png" alt="">
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Творчество, наставничество, дети</h3>
+                            <p class="movie__caption">Виктория Ямина, Виктория Ямина, волонтеры</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть видео</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="raw__section">
+            <div class="readwatch">
+                <a class="readwatch__heading" href="./articles.html">Статьи</a>
+                <div class="readwatch__pagination">
+                    <button class="readwatch__back"></button>
+                    <button class="readwatch__forward"></button>
+                </div>
+            </div>
+            <section class="events-grid events-grid_raw">
+                <div class="event-soon">
+                    <div class="event-soon__content-wrapper">
+                        <section class="events-grid__container">
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_green event-soon__description_size_small">
+                                <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                                <div class="event-soon__caption event-soon__caption_without_tag">
+                                    <div class="event-soon__title">Причины подростковой агрессии</div>
+                                    <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                                </div>
+                                <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                            </div>
+    
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                                <article class="event-article event-article_size_small">
+                                    <p class="event-article__paragraph">
+                                        Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                        ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                        количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                        потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                        В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                        а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                        в&nbsp;несколько абзацев.
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+    
+                <div class="event-soon">
+                    <div class="event-soon__content-wrapper">
+                        <section class="events-grid__container">
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_size_small">
+                                <p class="tag tag_disabled tag_place_event">Выбор наставника</p>
+                                <div class="event-soon__caption event-soon__caption_without_tag">
+                                    <div class="event-soon__title">Самоубийство в подростковом возрасте. Интервью с
+                                        психологом</div>
+                                    <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                                </div>
+                                <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                            </div>
+    
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                                <article class="event-article event-article_size_small">
+                                    <p class="event-article__paragraph">
+                                        Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                        ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                        количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                        потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                        В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                        а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                        в&nbsp;несколько абзацев.
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+    
+                <div class="event-soon">
+                    <div class="event-soon__content-wrapper">
+                        <section class="events-grid__container">
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__description event-soon__description_color_pink event-soon__description_size_small">
+                                <p class="tag tag_place_event tag_disabled">Причины подростковой агрессии</p>
+                                <div class="event-soon__caption event-soon__caption_without_tag">
+                                    <div class="event-soon__title">Фотосессия на природе</div>
+                                    <div class="event-soon__subtitle">Ирина Стасенко, педагог-психолог</div>
+                                </div>
+                                <a href="#" target="_blank" class="event-soon__link">перейти на сайт</a>
+                            </div>
+    
+                            <div
+                                class="profile-grid__column profile-grid__column_size_thin event-soon__about-wrapper event-soon__about-wrapper_size_small">
+                                <article class="event-article event-article_size_small">
+                                    <p class="event-article__paragraph">
+                                        Аннотация книги, статьи, фильма в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                        ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                        количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                        потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить.
+                                        В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово,
+                                        а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. статьи
+                                        в&nbsp;несколько абзацев.
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="raw__section">
+            <div class="readwatch">
+                <a class="readwatch__heading" href="./films.html">Фильмы</a>
+                <div class="readwatch__pagination">
+                    <button class="readwatch__back"></button>
+                    <button class="readwatch__forward"></button>
+                </div>
+            </div>
+            <ul class="movies">
+                <li class="movie movie__film">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/movie.png" alt="">
+                        <div class="movie__tags">
+                            <p class="tag">рубрика</p>
+                            <p class="tag">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Жутко громко и запредельно близко</h3>
+                            <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="movie movie__film">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/movie.png" alt="">
+                        <div class="movie__tags">
+                            <p class="tag">рубрика</p>
+                            <p class="tag">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Жизнь кабачка</h3>
+                            <p class="movie__caption">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="movie movie__film">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/movie.png" alt="">
+                        <div class="movie__tags">
+                            <p class="tag">рубрика</p>
+                            <p class="tag">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Волчок</h3>
+                            <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                    </div>
+                </li>
+                <li class="movie movie__film">
+                    <a class="mainlink" href="#"></a>
+                    <div class="movie__img">
+                        <img class="movie__poster" src="./images/movie.png" alt="">
+                        <div class="movie__tags">
+                            <p class="tag">рубрика</p>
+                            <p class="tag">рубрика</p>
+                        </div>
+                    </div>
+                    <div class="movie__descriprion">
+                        <div class="movie__name">
+                            <h3 class="movie__title">Жутко громко и запредельно близко</h3>
+                            <p class="movie__caption">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+                        </div>
+                        <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="raw__section">
+            <div class="readwatch">
+                <a class="readwatch__heading" href="./books.html">Книги</a>
+                <div class="readwatch__pagination">
+                    <button class="readwatch__back"></button>
+                    <button class="readwatch__forward"></button>
+                </div>
+            </div>
+            <ul class="books">
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик,</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </section>
+  
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="logo logo_place_footer" href="#">
+                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            </a>
+            <button type="button" class="button button_place_footer">Помочь деньгами</button>
+            <div class="footer__navigation">
+            <nav class="footer__menu">
+                <ul class="footer__list footer__list_type_nav">
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">О проекте</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link calender-open">Календарь</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Куда пойти</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Вопросы</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Читать и смотреть</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Права детей</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Истории</a></li>
+                </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_social">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__about">
+                <p class="footer__copyright">&#169; Старшие Братья Старшие Сестры</p>
+                <div class="footer__develop">
+                    <p class="footer__develop-text">Разработка 	&mdash; студенты <a class="footer__develop-accent"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></p>
+                    <p class="footer__develop-text">Концепия и дизайн &mdash; <a class="footer__develop-accent"
+                            href="https://krkr.design/">krkr.design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/readAndWatch.js"></script>
+</body>
+
+</html>

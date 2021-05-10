@@ -1,0 +1,31 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts/fonts.css);
+
+@import url(../blocks/root.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/button.css);
+@import url(../blocks/content.css);
+@import url(../blocks/logo.css);
+
+@import url(../blocks/event-choice.css);
+@import url(../blocks/heading.css);
+@import url(../blocks/buttons-scroll.css);
+@import url(../blocks/button.css);
+
+@import url(../blocks/event-soon.css);
+@import url(../blocks/profile-grid.css);
+
+@import url(../blocks/events-grid.css);
+
+@import url(../blocks/popup.css);
+@import url(../blocks/success.css);
+@import url(../blocks/login.css);
+
+@import url(../blocks/tag.css);
+@import url(../blocks/recommendation.css);
+
+@import url(../blocks/event-article.css);
+@import url(../blocks/custom-radio.css);
+
+@import url(../blocks/pagination.css);

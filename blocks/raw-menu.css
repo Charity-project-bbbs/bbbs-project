@@ -1,0 +1,35 @@
+.raw-menu {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 30px 30px;
+    z-index: 10;
+    width: calc(100% - 40px);
+    background-color: rgba(243, 242, 242, 1);
+}
+
+.raw-menu__item {
+    margin-bottom: 10px;
+}
+
+.raw-menu__item:last-child {
+    margin-bottom: 0;
+}
+
+.raw-menu__link {
+    font-family: 'Proto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px; 
+    letter-spacing: 0.2;
+    text-decoration: none;
+    color: #000;
+}
+
+.raw-menu__link:hover {
+    color: #224CFF;
+}

@@ -1,0 +1,39 @@
+.mainpage {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.mainpage__intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.mainpage__block {
+    
+}
+
+.mainpage__twoblocks {
+    display: flex;
+}
+
+.mainpage__twoblocks-col {
+    display: flex;
+}
+
+
+@media (max-width: 760px) {
+    .mainpage__twoblocks-col {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 740px) {
+    .mainpage__intro {
+        grid-template-columns: 1fr;
+    }
+
+
+}

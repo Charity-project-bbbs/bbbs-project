@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/bookspage.css">
+    <title>Document</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="./index.html"></a>
+            <button type="button" class="header__burger-btn"></button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <nav class="header__action">
+                <a class="header__button-search" href="#"></a>
+                <button type="button" class="header__button-login header__button-login_unauthorized"></button>
+            </nav>
+        </div>
+        <div class="header__burger header__burger_hidden">
+            <div class="header__burger-wrapper">
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+ 
+    </header>
+
+    <main class="content root__section">
+        <section class="bookpage">
+            <h1 class="heading">Книги</h1>
+            <div class="buttons-scroll">
+                <button class="button button_color_black button_color_black_active" type="button">Все</button>
+                <button class="button button_color_black" type="button">Научные</button>
+                <button class="button button_color_black" type="button">Художественные</button>
+            </div>
+
+            <ul class="bookpage__list books">
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик,</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик,</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик,</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small  event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="book">
+                    <div class="book__item">
+                        <div class="book__canvas">
+                            <h3 class="book__heading">Жизнь после утраты</h3>
+                            <div class="book__caption">
+                                <div class="book__line"></div>
+                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
+                                <p class="book__year">2011 год</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+
+
+            <div class="pagination">
+                <a class="pagination__link pagination__link_active" href="">1</a>
+                <a class="pagination__link" href="">2</a>
+                <a class="pagination__link" href="">3</a>
+                <a class="pagination__link" href="">4</a>
+                <a class="pagination__link" href="">5</a>
+                <a class="pagination__link" href="">...</a>
+                <a class="pagination__link" href="">18</a>
+                <a class="pagination__forward" href=""></a>          
+            </div>
+        </section>
+   
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="logo logo_place_footer" href="#">
+                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            </a>
+            <button type="button" class="button button_place_footer">Помочь деньгами</button>
+            <div class="footer__navigation">
+            <nav class="footer__menu">
+                <ul class="footer__list footer__list_type_nav">
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">О проекте</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link calender-open">Календарь</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Куда пойти</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Вопросы</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Читать и смотреть</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Права детей</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Истории</a></li>
+                </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_social">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__about">
+                <p class="footer__copyright">&#169; Старшие Братья Старшие Сестры</p>
+                <div class="footer__develop">
+                    <p class="footer__develop-text">Разработка 	&mdash; студенты <a class="footer__develop-accent"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></p>
+                    <p class="footer__develop-text">Концепия и дизайн &mdash; <a class="footer__develop-accent"
+                            href="https://krkr.design/">krkr.design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/guidepage.js"></script>
+</body>
+
+</html>

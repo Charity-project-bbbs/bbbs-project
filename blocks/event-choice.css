@@ -1,0 +1,24 @@
+.event-choice {
+    max-width: 100%;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+    .event-choice {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .event-choice {
+        padding-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 440px) {
+    .event-choice {
+        padding-bottom: 30px;
+    }
+}
