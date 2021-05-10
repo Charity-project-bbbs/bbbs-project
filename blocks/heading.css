@@ -8,6 +8,7 @@
     line-height: 80px;
     text-align: center;
 }
+
 @media (max-width: 1024px) {
     .heading {
         font-size: 37px;
@@ -15,6 +16,7 @@
         margin-bottom: 20px;
     }
 }
+
 @media (max-width: 850px) {
     .heading {
         margin-bottom: 20px;
