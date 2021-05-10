@@ -108,6 +108,8 @@
 
 .popup__input_type_boy {
     grid-column: 1/3;
+    display: flex;
+    align-items: flex-start;
 }
 
 .popup__input_type_girl {

@@ -25,13 +25,6 @@
     width: 0px;
   }
 
-.event-choice__next-button {
-    background-image: url(../images/next-button.svg);
-    width: 40px;
-    height: 40px;
-    border: none;
-  }
-
 @media (max-width: 1024px) {
     .event-choice {
         padding-top: 30px;
@@ -41,11 +34,6 @@
     .event-choice__buttons {
         max-width: 646px;
     }
-
-    .event-choice__next-button {
-        width: 30px;
-        height: 30px;
-      }
 }
 
 @media (max-width: 850px) {

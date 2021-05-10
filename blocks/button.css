@@ -20,13 +20,6 @@
     background-color: #E0E0E0;
 }
 
-.button_disabled {
-    border: none;
-    margin-bottom: 15px;
-    color: black;
-}
-
-
 /*-----BLUE-----*/
 .button_color_blue {
     color: #224CFF;
