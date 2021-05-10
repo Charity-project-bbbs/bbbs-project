@@ -4,35 +4,10 @@
     padding-bottom: 80px;
 }
 
-.event-choice__buttons {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    overflow-x: scroll;
-    white-space: nowrap;
-    scrollbar-width: none;
-}
-
-.event-choice__buttons::-webkit-scrollbar {
-    width: 0;
-  }
-
-.event-choice__buttons::-webkit-scrollbar {
-    width: 0px;
-  }
-
 @media (max-width: 1024px) {
     .event-choice {
         padding-top: 30px;
         padding-bottom: 50px;
-    }
-
-    .event-choice__buttons {
-        max-width: 646px;
     }
 }
 
