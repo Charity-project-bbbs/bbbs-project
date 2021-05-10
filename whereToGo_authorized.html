@@ -16,7 +16,7 @@
             <button type="button" class="header__burger-btn"></button>
             <nav class="header__menu">
                 <ul class="header__list">
-                    <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Календарь</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Куда пойти</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Вопросы</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Читать и смотреть</a></li>
@@ -27,7 +27,7 @@
 
             <nav class="header__action">
                 <a class="header__button-search" href="#"></a>
-                <button type="button" class="header__button-login header__button-login_unauthorized"></button>
+                <button type="button" class="header__button-login header__button-login_authorized"></button>
             </nav>
         </div>
         <div class="header__burger header__burger_hidden">
@@ -51,6 +51,10 @@
                         <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
                     </ul>
                 </nav>
+            </div>
+            <div class="header__bottom">
+                <p class="header__city">Москва. <span class="header__change">Изменить город</span></p>
+                <p class="header__logout">Выйти</p>
             </div>
         </div>
  
@@ -77,6 +81,12 @@
                 <button class="button button_color_black" type="button">18+ лет</button>
             </div>
         </section>
+
+        <section class="recommendation recommendation_place_page">
+            <div class="recommendation__texts">
+                <p class="recommendation__text recommendation__text_place_page">Если вы были в интересном месте и хотите порекомендовать его другим&nbsp;наставникам –
+                    <a class="recommendation__text-link">заполните&nbsp;форму</a>, и мы добавим вашу&nbsp;рекомендацию.</p>
+                </section>
 
         <section class="event-soon-card">
             <div class="event-soon">
@@ -314,6 +324,49 @@
                 <a class="login__link" href="#">Забыли пароль?</a>
                 <button type="submit"
                     class="button button_color_darkgray popup__submit-btn popup__submit-btn_type_login">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup_type_recommendation">
+        <div class="recommendation">
+            <div class="recommendation__texts">
+                <p class="recommendation__text">Если вы были в интересном месте и хотите порекомендовать его другим наставникам –
+                    <a class="recommendation__text-link recommendation__text-link_opened">заполните форму</a>, и мы добавим вашу&nbsp;рекомендацию.</p>
+            </div>
+            <form class="popup__form popup__form_type_recommendation" name="recommendation" action="#" method="POST"
+                novalidate>
+                <div class="popup__inputs">
+                    <input type="text" name="name" placeholder="Название" id="name"
+                        class="popup__input popup__input_type_name" required minlength="2">
+                    <input class="popup__input popup__input_type_url" type="url" placeholder="Сайт" name="date">
+                    <input class="popup__input popup__input_type_address" type="text" placeholder="Адрес*"
+                        name="address">
+                    <div class="popup__input popup__input_type_boy">
+                        <input class="" type="checkbox" placeholder="Мальчик" name="boy">
+                        <label>Мальчик</label>
+                    </div>
+                    <div class="popup__input popup__input_type_girl">
+                        <input type="checkbox" placeholder="Девочка" name="girl">
+                        <label>Девочка</label>
+                    </div>
+                    <input class="popup__input popup__input_type_age" type="number" placeholder="Возраст*" name="age">
+                    <select class="popup__select popup__select_type_relax" placeholder="Тип отдыха*">
+                        <option>Активный</option>
+                        <option>Развлекательный</option>
+                        <option>Познавательный</option>
+                    </select>
+                    <textarea class="popup__textarea popup__textarea_type_description" type="text"
+                        placeholder="Комментарий*"
+                        name="description"></textarea>
+                     <div class="popup__feedback">
+                        <button class="popup__feedback-button" type="button" name="good"></button>
+                        <p class="popup__feedback-text">Добавить&nbsp;фото</p>
+                    </div>
+                    <div class="popup__submit">
+                        <button class="button button_color_darkgray popup__submit-btn" type="submit">Отправить</button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
