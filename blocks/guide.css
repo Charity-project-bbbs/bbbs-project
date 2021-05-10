@@ -7,12 +7,24 @@
     grid-template-rows: 1fr;
     gap: 30px;
     overflow: hidden;
+    width: 100%;
+}
+
+.guide__all {
+    gap: 80px;
+    margin-bottom: 80px;
 }
 
 .guide__item {
     position: relative;
     cursor: pointer;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide__item_hidden {
+    display: none;
 }
 
 .guide__img-wrapper {
@@ -52,28 +64,104 @@
     margin: 0;
 }
 
+.guide__line {
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 1px;
+    grid-column-start: 4 span;
+}
+
+.guide__line_col_3 {
+    display: none;
+}
+
+.guide__line_col_2 {
+    display: none;
+}
+
+.guide__line_col_1 {
+    display: none;
+}
+
 @media (max-width: 1440px) {
     .guide {
         grid-template-columns: repeat(3, 1fr);
     }   
+
+    .guide__line {
+        display: none;
+    }
+
+    .guide__line_col_3 {
+        grid-column-start: 3 span;
+        display: block;
+    }
+
+    .guide__item:last-child {
+        display: none;
+    }
 }
 
 @media (max-width: 1024px) {
     .guide {
         grid-template-columns: repeat(2, 1fr);
     }  
+    
+    .guide__all {
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .guide__caption {
+        font-size: 19px;
+        line-height: 23px;
+        max-width: 290px;
+    } 
+
+    .guide__line_col_2 {
+        display: block;
+        grid-column-start: 2 span;
+    }
+
+    .guide__line_col_3 {
+        display: none;
+    }
+
+    .guide__img-wrapper_all {
+        max-width: 290px;
+        padding-top: 80%;
+    }
 }
 
 @media (max-width: 640px) {
     .guide {
         grid-template-columns: 1fr;
     }
+
+    .guide__all {
+        margin-bottom: 30px;
+    }
+
     .guide__img-wrapper {
         margin-bottom: 10px;
     }
 
     .guide__caption {
-        font-size: 19px;
-        line-height: 23px;
+        max-width: 100%;
+    }
+
+    .guide__line_col_2 {
+        display: none;
+    }
+
+    .guide__line_col_1 {
+        display: block;
+        grid-column-start: 1 span;
+    }
+
+    .guide__img-wrapper_all {
+        max-width: 100%;
+        padding-top: 100%;
     }
 }

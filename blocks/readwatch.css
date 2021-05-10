@@ -57,13 +57,13 @@
     .readwatch__heading {
         text-align: left;
     }
-}
-
-@media (max-width: 640px) {
+    
     .readwatch {
         justify-content: flex-start;
     }
+}
 
+@media (max-width: 640px) {
     .readwatch__heading {
         text-align: left;
         font-size: 23px;
