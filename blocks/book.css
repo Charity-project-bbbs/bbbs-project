@@ -1,7 +1,25 @@
 .book {
+  display: flex;
+  flex-direction: column;  
+}
+
+.book_hidden {
+    display: none;
+}
+
+.book__item {
     padding: 30px 65px;
     background-color: #fff;
     border-radius: 30px;
+}
+
+.book__desc {
+    border-radius: 30px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 
 .book__canvas {
@@ -68,11 +86,16 @@
     margin: 0;
 }
 
-@media (max-width: 640px) {
-    .book {
-        padding: 30px 45px;
+@media (max-width: 1024px) {
+    .book__desc {
+        height: 188px;
     }
-    
+
+    .book__item {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
     .book__canvas {
         padding: 15px;
         min-height: 272px;
@@ -98,4 +121,13 @@
         font-size: 12px;
         line-height: 17px;
     }
+}
+
+
+@media (max-width: 640px) {
+    .book__item {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
 }

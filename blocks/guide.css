@@ -98,9 +98,6 @@
         display: block;
     }
 
-    .guide__item:last-child {
-        display: none;
-    }
 }
 
 @media (max-width: 1024px) {
