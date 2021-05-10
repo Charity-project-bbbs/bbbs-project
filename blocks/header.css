@@ -131,7 +131,6 @@
 
 .header__button-login_authorized {
     background-image: url(../images/lk.svg);
-    text-decoration: none;
 }
 
 .header__burger {
@@ -430,27 +429,3 @@
     }
 
 }
-
-    .header__burger {
-        top: 44px;
-    }
-
-    .header__burger-wrapper {
-        margin-bottom: 50px;
-        padding: 0 15px;
-    }
-
-/* селекторы для страницы поиска */
-
-    .header__input {
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    
-    .header__input::placeholder {
-        font-size: 15px;
-        line-height: 21px;
-    }

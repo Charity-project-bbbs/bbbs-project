@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/calendar.css">
+    <title>Календарь</title>
+</head>
+
+<body class="root">
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="./index.html"></a>
+            <button type="button" class="header__burger-btn"></button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="./calendar.html" class="header__list-link">Календарь</a></li>
+                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
+                    <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <nav class="header__action">
+                <a class="header__button-search" href="#"></a>
+                <a type="button" href="./index.html" class="header__button-login header__button-login_authorized"></button>
+            </nav>
+        </div>
+        <div class="header__burger header__burger_hidden">
+            <div class="header__burger-wrapper">
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
+                        <li class="header__burger-item"><a href="./calendar.html" class="header__burger-link calender-open">Календарь</a></li>
+                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu-burger">
+                    <ul class="header__burger-list">
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__bottom">
+                <p class="header__city">Москва. <span class="header__change">Изменить город</span></p>
+                <p class="header__logout">Выйти</p>
+            </div>
+        </div>
+ 
+    </header>
+
+    <main>
+        <section class="grid-calendar">
+            <h1 class="heading">Календарь</h1>
+            <div class="grid-calendar__buttons">
+                <button class="button button_color_black" type="button">Декабрь</button>
+                <button class="button button_color_black" type="button">Январь</button>
+                <button class="button button_color_black" type="button">Февраль</button>
+            </div>
+            <div class="grid-calendar_grid">
+                <div class="calendar calendar_onclick">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры + дети</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Субботний meet up: учимся проходить интевью</h2>
+                        <p class="calendar__day">05</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button
+                                class="button button_color_blue button_color_blue_onclick button_color_blue-open"
+                                type="button">Отменить
+                                запись</button>
+                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                        </div>
+                        <button class="button_color_blue button_color_blue-round button_color_blue-open"
+                            type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Ресурсная группа «Вовлечение в волонтёрство»</h2>
+                        <p class="calendar__day">16</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button class="button button_color_blue button_color_blue-nonactive" type="button"
+                                disabled="disabled">Записаться</button>
+                            <p class="calendar__sign-up_text">Запись закрыта</p>
+                        </div>
+                        <button class="button_color_blue button_color_blue-round button_color_blue-open"
+                            type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры + дети</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Занятие с выпускниками: как составить резюме</h2>
+                        <p class="calendar__day">20</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button class="button button_color_blue button_color_blue-open"
+                                type="button">Записаться</button>
+                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                        </div>
+                        <button class="button_color_blue button_color_blue-round button_color_blue-open"
+                            type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры + дети</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Субботний meet up: учимся проходить интевью</h2>
+                        <p class="calendar__day">23</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button class="button button_color_blue button_color_blue-open"
+                                type="button">Записаться</button>
+                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                        </div>
+                        <button class="button_color_blue button_color_blue-round button_color_blue-open"
+                            type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="calendar__about">
+                        <p class="calendar__participants">Волонтёры + дети</p>
+                        <p class="calendar__date">декабрь / понедельник</p>
+                        <h2 class="calendar__event">Субботний meet up: учимся проходить интевью</h2>
+                        <p class="calendar__day">28</p>
+                    </div>
+                    <ul class="calendar__contacts">
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__time">12:00–14:00</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                        </li>
+                        <li class="calendar__contacts-item">
+                            <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                        </li>
+                    </ul>
+                    <div class="calendar__sign-up">
+                        <div class="calendar__sign-up_flex">
+                            <button class="button button_color_blue button_color_blue-open"
+                                type="button">Записаться</button>
+                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                        </div>
+                        <button class="button_color_blue button_color_blue-round button_pcolor_blue-open"
+                            type="button">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                                <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                                <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                                <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="logo logo_place_footer" href="#">
+                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            </a>
+            <button type="button" class="button button_place_footer">Помочь деньгами</button>
+            <div class="footer__navigation">
+            <nav class="footer__menu">
+                <ul class="footer__list footer__list_type_nav">
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">О проекте</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Календарь</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Куда пойти</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Вопросы</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Читать и смотреть</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Права детей</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__list-link">Истории</a></li>
+                </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul class="footer__list footer__list_type_social">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__about">
+                <p class="footer__copyright">&#169; Старшие Братья Старшие Сестры</p>
+                <div class="footer__develop">
+                    <p class="footer__develop-text">Разработка 	&mdash; студенты <a class="footer__develop-accent"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></p>
+                    <p class="footer__develop-text">Концепия и дизайн &mdash; <a class="footer__develop-accent"
+                            href="https://krkr.design/">krkr.design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="popup popup__meet">
+        <div class="calendar calendar__popup">
+            <button class="button-close popup__button_close"></button>
+            <div class="calendar__about_popup">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__date">декабрь / понедельник</p>
+            </div>
+            <div class="calendar__about_popup">
+                <h2 class="calendar__event">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__day">28</p>
+            </div>
+            <ul class="calendar__contacts">
+                <li class="calendar__contacts-item">
+                    <p class="calendar__time">12:00–14:00</p>
+                </li>
+                <li class="calendar__contacts-item">
+                    <p class="calendar__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+                </li>
+                <li class="calendar__contacts-item">
+                    <p class="calendar__phone">Александра, +7 926 356-78-90</p>
+                </li>
+            </ul>
+            <p class="calendar__text_popup">
+                Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и ресурса
+                сейчас не так много,
+                а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на встречу нашего
+                ресурсного клуба
+                "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и внутреннего ресурса
+                для
+                общения и взаимодействия с
+                нашими подопечными.
+            </p>
+            <div class="calendar__sign-up">
+                <div class="calendar__sign-up_flex">
+                    <button class="button button_color_blue button_color_blue-open"
+                        type="button">Записаться</button>
+                    <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popup popup__proof">
+        <div class="proof">
+            <button class="button-close popup__button_close"></button>
+            <h2 class="proof__title">Подтвердить запись на мероприятие 
+                «Субботний meet up: учимся проходить интервью»
+                5 декабря с 12:00–14:00
+            </h2>
+            <div class="proof__buttons">
+                <button class="button button_color_blue">Подтвердить запись</button>
+                <button class="button button_color_black">Отменить</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="popup popup__success">
+        <div class="success">
+            <button class="button-close popup__button_close"></button>
+            <img class="success__image" src="./images/success-popup.svg" alt="#">
+            <h2 class="success__title">Вы записаны на мероприятие «Субботний meet up: учимся 
+                проходить интервью» 5 декабря с 12:00–14:00.
+            </h2>
+            <h2 class="success__title"> Если у вас не получится прийти — отмените, 
+                пожалуйста, запись.
+            </h2>
+            <button class="button button_color_black success__button">Вернуться к календарю</button>
+        </div>
+    </section>
+
+    <template id="template-calendar">
+        <div class="calendar">
+            <div class="calendar__about">
+                <p class="calendar__participants"></p>
+                <p class="calendar__date"></p>
+                <h2 class="calendar__event"></h2>
+                <p class="calendar__day"></p>
+            </div>
+            <ul class="calendar__contacts">
+                <li class="calendar__contacts-item">
+                    <p class="calendar__time"></p>
+                </li>
+                <li class="calendar__contacts-item">
+                    <p class="calendar__adress"></p>
+                </li>
+                <li class="calendar__contacts-item">
+                    <p class="calendar__phone"></p>
+                </li>
+            </ul>
+            <div class="calendar__sign-up">
+                <div class="calendar__sign-up_flex">
+                    <button class="button color_blue" type="button"></button>
+                    <p class="calendar__sign-up_text"></p>
+                </div>
+                <button class="button_color_blue button_color_blue-round" type="button">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="#224CFF" />
+                        <circle cx="13.3346" cy="20.0002" r="1.66667" fill="#224CFF" />
+                        <circle cx="20.0026" cy="19.9999" r="1.66667" fill="#224CFF" />
+                        <circle cx="26.6667" cy="19.9999" r="1.66667" fill="#224CFF" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <script src="./scripts/calendar.js"></script>
+</body>
+
+</html>

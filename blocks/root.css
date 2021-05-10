@@ -1,7 +1,7 @@
 .root {
     width: 100%;
     margin: 0 auto;
-    font-family: 'PT Root', Arial, sans-serif;
+    font-family: 'PT Root', 'Proto', sans-serif;
     color: black;
     background-color: rgba(243, 242, 242, 1);
     box-sizing: border-box;

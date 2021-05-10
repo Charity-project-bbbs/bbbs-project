@@ -139,6 +139,7 @@
     margin: 0;
     margin-left: 15px;
     padding: 0;
+    font-family: 'PT Root', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -152,6 +153,39 @@
     align-items: center;
 }
 
+/*CALENDAR ONCLICK*/
+.calendar_onclick {
+    background-color: #C8D1FF;
+}
+
+
+/*POPUP*/
+.calendar__popup {
+    position: relative;
+}
+
+.calendar__about_popup {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calendar__text_popup {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(26, 26, 26, 1);
+}
+
+
+/*--------MEDIA--------*/
 
 @media (max-width: 1620px) {
     
@@ -169,21 +203,19 @@
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
 
-    .calendar__wrapper {
+    .calendar {
         padding-left: 15px;
         padding-right: 15px;
     }
 
     .calendar__participants {
-        /* max-width: 103px; */
         font-size: 12px;
         line-height: 17px;
     }
 
     .calendar__date {
-        /* max-width: 133px; */
         font-size: 12px;
         line-height: 17px;
     }
@@ -227,19 +259,47 @@
     }
 }
 
-
-@media (max-width: 740px) {
+@media (max-width: 1024px) {
     
     .calendar {
-        width: 100%;
+        max-width: 370px;
     }
+}
 
-    .calendar__date {
-        min-width: 133px;
-        max-width: 50%;
+@media (max-width: 440px) {
+    
+    .calendar__event {
+        max-width: 166px;
     }
+}
 
-    .calendar__participants {
-        max-width: 103px;
+@media (max-width: 440px) {
+    
+    .calendar {
+        max-width: 290px;
+    }
+}
+
+
+
+/*-------------POPUP---------------*/
+@media (max-width: 1920px) and (min-width: 800px) {
+
+    .calendar__popup {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 799px) and (min-width: 320px) {
+
+    .calendar__popup {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
 }
