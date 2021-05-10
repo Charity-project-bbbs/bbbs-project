@@ -1,0 +1,226 @@
+.event-soon {
+    width: 100%;
+}
+
+.event-soon__content-wrapper {
+    display: flex;
+}
+
+.event-soon__description {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px 30px 30px;
+    border-radius: 30px;
+    background-color: #F8D162;
+}
+
+.event-soon__description_size_big {
+    max-height: 629px;
+}
+
+.event-soon__description_size_small {
+    max-height: 224px;
+}
+
+.event-soon__mentor {
+    font-size: 10px;
+    color: #464646;
+    font-family: 'PT Root', Arial, Helvetica, sans-serif;
+    line-height: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.event-soon__caption {
+    margin: 15px 30px 70px;
+    font-family: 'PT Root', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+}
+
+.event-soon__title {
+    font-family: 'Proto', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+}
+
+.event-soon__subtitle {
+    font-family: 'PT Root', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #464646;
+    margin-top: 5px;
+}
+
+.event-soon__img {
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.event-soon__link {
+    font-family: 'Proto', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+    text-decoration: none;
+}
+
+.event-soon__link:hover {
+    color: #2E2468;
+}
+
+.event-soon__about-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 30px;
+    max-height: 629px;
+    background-color: #FFFFFF; 
+}
+
+.event-soon__about-wrapper_size_big {
+    max-height: 629px;
+}
+
+.event-soon__about-wrapper_size_small {
+    max-height: 224px;
+    margin-bottom: 30px;
+}
+
+
+.event-soon__about-container{
+    margin: 47px 15px 69px 30px;
+    overflow: hidden;
+}
+
+.event-soon__about-container::-webkit-scrollbar {
+    width: 3px;
+    background-color: cover;
+}
+
+.event-soon__about-container::-webkit-scrollbar-thumb {
+    background-color:#E8E6E6;
+    border-radius: 5px;
+}
+
+.event-soon__about-container::-webkit-scrollbar-button {
+    height: 15px;
+}
+
+.event-soon__about-container_size_big {
+    margin: 47px 15px 69px 30px;
+}
+
+.event-soon__about-container_size_small {
+    margin: 30px;
+    overflow-y: scroll;
+}
+
+.event-soon__about-title {
+    font-family: 'PT Root', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #464646;
+}
+
+.event-soon__about-title_size_big {
+    margin-bottom: 105px;
+}
+
+.event-soon__about-title_size_small {
+    margin-bottom: 10px;
+}
+
+.event-soon__paragraph {
+    font-family: 'PT Root', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 38px;
+    margin-top: 0;
+}
+
+.event-soon__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+    .event-soon__about-container_size_big {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 1280px) {
+    .event-soon__about-container_size_big {
+        margin: 30px 15px;
+    }
+
+    .event-soon__about-wrapper {
+        max-height: 188px;
+    }
+
+    .event-soon__about-title {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 5px;
+    }
+
+    .event-soon__paragraph_size_big {
+        margin-left: 24.83px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+} 
+
+@media (max-width: 1024px) {
+
+    .event-soon__description {
+        padding: 15px;
+    }
+
+    .event-soon__caption {
+        margin: 15px 15px 62px;
+    }
+
+    .event-soon__title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .event-soon__subtitle {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .event-soon__link {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .event-soon__caption {
+        margin-bottom: 39px;
+    }
+} 
+
+@media (max-width: 320px) {
+
+    .event-soon__paragraph {
+        margin-left: 0;
+    }
+} 

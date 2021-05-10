@@ -1,0 +1,28 @@
+.questions {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: calc(100% - 450px);
+}
+
+@media (max-width: 1440px) {
+    .questions {
+        width: calc(100% - 400px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .questions {
+        width: calc(100% - 400px);
+        grid-template-rows: repeat(2, max-content);
+    }
+}
+
+@media (max-width: 760px) {
+    .questions {
+        width: 100%;
+    }
+}
