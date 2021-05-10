@@ -76,7 +76,6 @@
 .button_color_black {
     border: 1px black solid;
     color: black;
-    margin-bottom: 15px;
 }
 
 .button_color_black:hover {
@@ -146,13 +145,6 @@
         font-size: 12px;
         line-height: 17px;
     }
-}
-
-@media (max-width: 440px) {
-    
-    .button_color_black {
-        margin-bottom: 10px;
-    }
 
     .button_color_blue {
         padding: 11px 15px 8px 15px;
@@ -160,6 +152,7 @@
         line-height: 17px;
     }
 }
+
 
 @media (min-width: 320px) {
     

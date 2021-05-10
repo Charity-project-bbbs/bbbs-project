@@ -422,7 +422,55 @@
     display: none;
 }
 
+/*-----------POPUP---------------*/
+.personal-account__popup {
+    position: fixed;
+    max-width: 700px;
+    max-height: 238px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.personal-account__popup_buttons {
+    width: 228px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 880px) {
+    
+    .personal-account__popup {
+        max-width: 470px;
+        max-height: 238px;
+    }
+
+    .personal-account__popup_buttons {
+        width: 170px;
+    }
+}
+
+@media (max-width: 630px) {
+    
+    .personal-account__popup {
+        max-width: 320px;
+        max-height: 216px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
 
 
 
