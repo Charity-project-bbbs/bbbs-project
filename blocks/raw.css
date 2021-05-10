@@ -1,0 +1,11 @@
+.raw {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 640px) {
+    .raw {
+        gap: 30px;
+    }
+}

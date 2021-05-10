@@ -8,6 +8,7 @@
     position: relative;
 }
 
+
 .movie__img {
     border-radius: 30px 30px 0 0;
     position: relative;
@@ -72,7 +73,7 @@
     overflow: hidden;
 }
 
-.movie__trailer {
+.movie__link {
     font-family: 'Proto', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -84,13 +85,12 @@
     z-index: 4;
 }
 
-.movie__trailer:hover {
+.movie__link:hover {
     color: #2E2468;
 }
 
 
-
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .movie__descriprion {
         padding-left: 15px;
         padding-right: 15px;
@@ -110,7 +110,7 @@
         line-height: 17px;
     }
     
-    .movie__trailer {
+    .movie__link {
         font-size: 12px;
         line-height: 17px;
     }
