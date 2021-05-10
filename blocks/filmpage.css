@@ -1,0 +1,23 @@
+.filmpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmpage__list {
+    margin: 80px 0;
+}
+
+@media (max-width: 1024px) {   
+    .filmpage__list {
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 640px) {
+    .filmpage__list {
+        margin-bottom: 30px;
+    }
+
+}

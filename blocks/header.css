@@ -131,6 +131,7 @@
 
 .header__button-login_authorized {
     background-image: url(../images/lk.svg);
+    text-decoration: none;
 }
 
 .header__burger {

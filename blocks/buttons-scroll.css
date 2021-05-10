@@ -1,0 +1,30 @@
+.buttons-scroll {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.buttons-scroll::-webkit-scrollbar {
+    width: 0;
+  }
+
+.buttons-scroll::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .buttons-scroll_place_event {
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1024px) {
+
+    .buttons-scroll {
+        max-width: 646px;
+    }
+}

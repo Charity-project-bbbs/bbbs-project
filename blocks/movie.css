@@ -3,9 +3,13 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 30px;
     position: relative;
+}
+
+.movie__films {
+    background-color: transparent;
 }
 
 .movie__video_hidden {
@@ -15,6 +19,22 @@
 .movie__film_hidden {
     display: none;
 }
+
+.movie__desc {
+    border-radius: 30px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.movie__item {
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
 .movie__img {
     border-radius: 30px 30px 0 0;
     position: relative;
@@ -100,6 +120,10 @@
     .movie__descriprion {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .movie__desc {
+        height: 188px;
     }
 
     .movie__name {
