@@ -1,0 +1,19 @@
+.custom-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #999;
+    outline: none;
+    margin-right: 5px;
+  
+    position: relative;
+  }
+  
+.custom-radio:checked {
+    border: 6px solid black;
+  }
