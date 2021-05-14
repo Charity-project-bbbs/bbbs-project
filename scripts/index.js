@@ -13,12 +13,12 @@ const videoBlock = document.querySelector('.mainvideo__video');
 openButton.addEventListener('click', () => {
     if (isClicked === false) {
         menu.classList.remove('header__burger_hidden');
-        openButton.style.backgroundImage = 'url(../images/close.svg)';
+        openButton.style.backgroundImage = 'url(./images/close.svg)';
         loginButton.style.display = 'block';
         isClicked = true     
     } else {
         menu.classList.add('header__burger_hidden');
-        openButton.style.backgroundImage = 'url(../images/burger-menu.svg)';
+        openButton.style.backgroundImage = 'url(./images/burger-menu.svg)';
         loginButton.style.display = 'none';
         isClicked = false
     }
