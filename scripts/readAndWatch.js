@@ -5,7 +5,9 @@ const bookitems = document.querySelectorAll('.book')
 const articlesitems = document.querySelectorAll('.event-soon')
 
 
-let documentWidth = document.documentElement.clientWidth
+let documentWidth = document.documentElement.clientWidth //ширина экрана
+
+/* Показывать количество карточек в зависимости от разрешения экрана  */
 
 function render (arr, selector) {
     if (documentWidth < 1440 && documentWidth > 1024) {
@@ -35,3 +37,4 @@ render (filmitems, 'movie__film_hidden')
 render (bookitems, 'book_hidden')
 render (articlesitems, 'event-soon_hidden')
 
+// изменение количества при ресайзе не прописано. Страницу необходимо обновлять при изменении ширины окна

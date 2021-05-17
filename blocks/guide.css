@@ -125,7 +125,7 @@
         display: none;
     }
 
-    .guide__img-wrapper_all {
+    .guide__img-wrapper_place_guide {
         max-width: 290px;
         padding-top: 80%;
     }
@@ -157,7 +157,7 @@
         grid-column-start: 1 span;
     }
 
-    .guide__img-wrapper_all {
+    .guide__img-wrapper_place_guide {
         max-width: 100%;
         padding-top: 100%;
     }

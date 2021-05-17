@@ -9,6 +9,7 @@
 
 .header__wrapper {
     width: calc(100% - 150px);
+    max-width: 1770px;
     margin: 0 auto;
     margin-top: 39px;
     padding: 0;

@@ -1,6 +1,8 @@
 const items = document.querySelectorAll('.guide__item')
 
-let documentWidth = document.documentElement.clientWidth
+let documentWidth = document.documentElement.clientWidth //ширина экрана
+
+/* Показывать количество карточек в зависимости от разрешения экрана  */
 
 function renderItems () {
     if (documentWidth < 1024) {
@@ -14,6 +16,7 @@ function renderItems () {
    
 renderItems ()
 
+/* Изменять количество карточек при ресайзе  */
 
 window.addEventListener("resize", () => {
     let documentWidth = document.documentElement.clientWidth
