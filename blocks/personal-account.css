@@ -249,7 +249,7 @@
     color: #FF8585;
 }
 
-.personal-account__feedback-delete_text {
+.personal-account__feedback-delete_type_text {
     margin: 0;
     margin-right: 20px;
     padding: 0;
@@ -396,7 +396,7 @@
     text-align: left;
 }
 
-.personal-account__event-wrapper_text_place_form {
+.personal-account__event-wrapper_type_form-text {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -409,7 +409,7 @@
 
 .personal-account__textarea-text {
     width: 85%;
-    max-height: 286px;
+    height: 286px;
     overflow-y: scroll;
     overflow-x: hidden;
     scrollbar-color: #E8E6E6 transparent;
@@ -440,7 +440,7 @@
     height: 15px;
 }
 
-/* .personal-account__feedback-delete_text:not(:first-of-type) {
+/* .personal-account__feedback-delete_type_text:not(:first-of-type) {
     margin-top: 30px;
 } */
 
@@ -453,7 +453,6 @@
 .personal-account__popup {
     position: fixed;
     max-width: 700px;
-    max-height: 238px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -467,9 +466,13 @@
     justify-content: center;
 }
 
+.personal-account__title_place_popup {
+    max-width: 410px;
+}
+
 .personal-account__popup_buttons {
     width: 228px;
-    margin: 0 auto;
+    margin: 30px auto 0;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -481,7 +484,6 @@
     
     .personal-account__popup {
         max-width: 470px;
-        max-height: 238px;
     }
 
     .personal-account__popup_buttons {
@@ -493,7 +495,6 @@
     
     .personal-account__popup {
         max-width: 320px;
-        max-height: 216px;
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -523,7 +524,6 @@
     .personal-account__inputs {
         display: flex;
         flex-direction: column;
-        max-height: 474px;
     }
 
     .personal-account__textarea {
@@ -536,7 +536,7 @@
         justify-content: space-between;
     }
 
-    .personal-account__event-wrapper_text_place_form {
+    .personal-account__event-wrapper_type_form-text {
         margin-top: -20px;
     }
 
@@ -547,18 +547,18 @@
         grid-template-rows: 50% 50%;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(1) {
+    .personal-account__feedback-delete_type_text:nth-of-type(1) {
         grid-column: 1/2;
         margin-top: 30px;
         margin-right: 0;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(2) {
+    .personal-account__feedback-delete_type_text:nth-of-type(2) {
         grid-row: 2/3;   
         margin-top: 30px;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(3) {
+    .personal-account__feedback-delete_type_text:nth-of-type(3) {
         grid-column: 2/3;
         grid-row: 2/3;
         margin-top: 30px;
@@ -624,7 +624,7 @@
         line-height: 17px;
     }
 
-    .personal-account__feedback-delete_text {
+    .personal-account__feedback-delete_type_text {
         font-size: 12px;
         line-height: 17px;
     }
@@ -655,7 +655,6 @@
     }
 
     .personal-account__form {
-        max-height: 100%;
         grid-template-columns: 290px;
         grid-template-rows: 291px 404px;
         justify-content: center;
@@ -701,15 +700,15 @@
         line-height: 17px;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(1) {
+    .personal-account__feedback-delete_type_text:nth-of-type(1) {
         margin-top: 10px;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(2) {
+    .personal-account__feedback-delete_type_text:nth-of-type(2) {
         margin-top: 10px;
     }
 
-    .personal-account__feedback-delete_text:nth-of-type(3) {
+    .personal-account__feedback-delete_type_text:nth-of-type(3) {
         margin-top: 10px;
     }
     

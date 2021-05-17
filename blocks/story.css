@@ -1,7 +1,6 @@
 .story {
     max-width: 870px;
     height: auto;
-    max-height: 520px;
     position: relative;
     padding: 0;
     margin-right: 0;
@@ -13,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .story::after {
@@ -43,21 +43,12 @@
 
 @media (max-width: 1440px) {
 
-    .story {
-    }
-
     .story::after {
         display: none;
     }
 
     .story__title {
         display: none;
-    }
-}
-
-@media (max-width: 1024px) {
-    
-    .story {
     }
 }
 

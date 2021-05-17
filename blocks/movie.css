@@ -57,7 +57,7 @@
 
 .movie__descriprion {
     padding: 15px 30px;
-    height: 169px;
+    min-height: 169px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@
 
 @media screen and (max-width: 1024px) {
     .movie__descriprion {
-        height: 147px;
+        min-height: 147px;
         padding-left: 15px;
         padding-right: 15px;
     }

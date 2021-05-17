@@ -1,9 +1,8 @@
 .proof {
     position: relative;
-    width: 770px;
-    height: 670px;
+    max-width: 770px;
     margin: 0 auto;
-    padding: 0;
+    padding: 251px 100px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
@@ -27,23 +26,19 @@
 }
 
 .proof__buttons {
-    margin: 0 auto;
-    padding: 0;
+    margin: auto;
+    display: flex;
 }
 
-@media (max-width: 1200px) {
-    
-    .proof {
-        width: 670px;
-        height: 570px;
-    }
+.proof__sbm-btn  {
+    margin-right: 20px;
 }
 
 @media (max-width: 1024px) {
     
     .proof {
         width: 570px;
-        height: 470px;
+        padding: 150px 70px;
     }
 }
 
@@ -51,7 +46,6 @@
     
     .proof {
         width: 470px;
-        height: 370px;
     }
 
     .proof__title {
@@ -65,21 +59,12 @@
 @media (max-width: 560px) {
     
     .proof {
-        max-width: 370px;
-        max-height: 270px;
-        padding-top: 60px;
-        padding-bottom: 30px;
+        width: calc(100% - 30px);
+        padding: 70px 15px;
     }
 
     .proof__title {
         padding-left: 15px;
         padding-right: 15px;
-    }
-}
-
-@media (max-width: 440px) {
-    
-    .proof {
-        max-width: 290px;
     }
 }

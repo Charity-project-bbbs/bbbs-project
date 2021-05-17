@@ -99,7 +99,7 @@
 
     .success__image {
         max-width: 313px;
-        max-height: 69px;
+        height: 69px;
         margin-top: 60px;
     }
 }
@@ -112,6 +112,6 @@
 
     .success__image {
         max-width: 283px;
-        max-height: 49px;
+        height: 49px;
     }
 }

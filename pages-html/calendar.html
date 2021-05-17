@@ -26,7 +26,7 @@
             </nav>
 
             <nav class="header__action">
-                <a class="header__button-search" href="#"></a>
+                <a class="header__button-search" href="../pages-html/search.html"></a>
                 <button type="button" class="header__button-login header__button-login_unauthorized"></button>
             </nav>
         </div>
@@ -45,10 +45,10 @@
                 </nav>
                 <nav class="header__menu-burger">
                     <ul class="header__burger-list">
-                        <li class="header__burger-item"><a href="#" class="header__burger-link">facebook</a></li>
-                        <li class="header__burger-item"><a href="#" class="header__burger-link">vkontakte</a></li>
-                        <li class="header__burger-item"><a href="#" class="header__burger-link">instagram</a></li>
-                        <li class="header__burger-item"><a href="#" class="header__burger-link">youtube</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link" target="_blank" rel="noopener">facebook</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link" target="_blank" rel="noopener">vkontakte</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link" target="_blank" rel="noopener">instagram</a></li>
+                        <li class="header__burger-item"><a href="#" class="header__burger-link" target="_blank" rel="noopener">youtube</a></li>
                     </ul>
                 </nav>
             </div>
@@ -61,14 +61,14 @@
     </header>
 
     <main>
-        <section class="grid-calendar">
+        <section class="grid-calendar content">
             <h1 class="heading">Календарь</h1>
             <div class="grid-calendar__buttons">
                 <button class="button button_color_black" type="button">Декабрь</button>
                 <button class="button button_color_black" type="button">Январь</button>
                 <button class="button button_color_black" type="button">Февраль</button>
             </div>
-            <div class="grid-calendar_grid">
+            <div class="grid-calendar__grid">
                 <div class="calendar calendar_onclick">
                     <div class="calendar__about">
                         <p class="calendar__participants">Волонтёры + дети</p>
@@ -93,7 +93,7 @@
                                 class="button button_color_blue button_color_blue_onclick button_color_blue-open"
                                 type="button">Отменить
                                 запись</button>
-                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                            <p class="calendar__sign-up__type_text">Осталось 5 мест</p>
                         </div>
                         <button class="button_color_blue button_color_blue-round button_color_blue-open"
                             type="button">
@@ -130,7 +130,7 @@
                         <div class="calendar__sign-up_flex">
                             <button class="button button_color_blue button_color_blue-nonactive" type="button"
                                 disabled="disabled">Записаться</button>
-                            <p class="calendar__sign-up_text">Запись закрыта</p>
+                            <p class="calendar__sign-up__type_text">Запись закрыта</p>
                         </div>
                         <button class="button_color_blue button_color_blue-round button_color_blue-open"
                             type="button">
@@ -167,7 +167,7 @@
                         <div class="calendar__sign-up_flex">
                             <button class="button button_color_blue button_color_blue-open"
                                 type="button">Записаться</button>
-                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                            <p class="calendar__sign-up__type_text">Осталось 5 мест</p>
                         </div>
                         <button class="button_color_blue button_color_blue-round button_color_blue-open"
                             type="button">
@@ -204,7 +204,7 @@
                         <div class="calendar__sign-up_flex">
                             <button class="button button_color_blue button_color_blue-open"
                                 type="button">Записаться</button>
-                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                            <p class="calendar__sign-up__type_text">Осталось 5 мест</p>
                         </div>
                         <button class="button_color_blue button_color_blue-round button_color_blue-open"
                             type="button">
@@ -241,7 +241,7 @@
                         <div class="calendar__sign-up_flex">
                             <button class="button button_color_blue button_color_blue-open"
                                 type="button">Записаться</button>
-                            <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                            <p class="calendar__sign-up__type_text">Осталось 5 мест</p>
                         </div>
                         <button class="button_color_blue button_color_blue-round button_pcolor_blue-open"
                             type="button">
@@ -279,10 +279,10 @@
                 </nav>
                 <nav class="footer__menu">
                     <ul class="footer__list footer__list_type_social">
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">facebook</a></li>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">vkontakte</a></li>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">instagram</a></li>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">youtube</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank" rel="noopener">facebook</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank" rel="noopener">vkontakte</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank" rel="noopener">instagram</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank" rel="noopener">youtube</a></li>
                     </ul>
                 </nav>
             </div>
@@ -300,7 +300,7 @@
 
     <section class="popup popup__meet">
         <div class="calendar calendar__popup">
-            <button class="button-close popup__button_close"></button>
+            <button class="button-close popup__button-close"></button>
             <div class="calendar__about_popup">
                 <p class="calendar__participants">Волонтёры + дети</p>
                 <p class="calendar__date">декабрь / понедельник</p>
@@ -334,7 +334,7 @@
                 <div class="calendar__sign-up_flex">
                     <button class="button button_color_blue button_color_blue-open"
                         type="button">Записаться</button>
-                    <p class="calendar__sign-up_text">Осталось 5 мест</p>
+                    <p class="calendar__sign-up__type_text">Осталось 5 мест</p>
                 </div>
             </div>
         </div>
@@ -342,21 +342,21 @@
 
     <section class="popup popup__proof">
         <div class="proof">
-            <button type="button" class="button-close popup__button_close"></button>
+            <button type="button" class="button-close popup__button-close"></button>
             <h2 class="proof__title">Подтвердить запись на мероприятие 
                 «Субботний meet up: учимся проходить интервью»
                 5 декабря с 12:00–14:00
             </h2>
             <div class="proof__buttons">
-                <button type="button" class="button button_color_blue">Подтвердить запись</button>
-                <button type="button" class="button button_color_black">Отменить</button>
+                <button type="button" class="proof__sbm-btn button button_color_blue">Подтвердить запись</button>
+                <button type="button" class="proof__cancel-btn button button_color_black">Отменить</button>
             </div>
         </div>
     </section>
 
     <section class="popup popup__success">
         <div class="success">
-            <button type="button" class="button-close popup__button_close"></button>
+            <button type="button" class="button-close popup__button-close"></button>
             <img class="success__image" src="../images/success-popup.svg" alt="#">
             <h2 class="success__title">Вы записаны на мероприятие «Субботний meet up: учимся 
                 проходить интервью» 5 декабря с 12:00–14:00.
@@ -390,7 +390,7 @@
             <div class="calendar__sign-up">
                 <div class="calendar__sign-up_flex">
                     <button type="button" class="button color_blue" type="button"></button>
-                    <p class="calendar__sign-up_text"></p>
+                    <p class="calendar__sign-up__type_text"></p>
                 </div>
                 <button class="button_color_blue button_color_blue-round" type="button">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">

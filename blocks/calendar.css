@@ -128,7 +128,7 @@
     align-items: center;
 }
 
-.calendar__sign-up_text {
+.calendar__sign-up__type_text {
     margin: 0;
     margin-left: 15px;
     padding: 0;
@@ -155,6 +155,9 @@
 /*POPUP*/
 .calendar__popup {
     position: relative;
+    max-width: 770px;
+    padding: 50px 100px;
+    box-sizing: border-box;
 }
 
 .calendar__about_popup {
@@ -188,20 +191,17 @@
 }
 
 
-@media (max-width: 1440px) {
-    
-    .calendar {
-        max-width: 570px;
-    }
-}
-
-
 @media (max-width: 1250px) {
 
     .calendar {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .calendar__popup {
+        padding: 50px 100px;
+    }
+
 
     .calendar__participants {
         font-size: 12px;
@@ -229,12 +229,12 @@
         line-height: 17px;
     }
 
-    .calendar__sign-up_text {
+    .calendar__sign-up__type_text {
         font-size: 12px;
         line-height: 17px;
     }
 
-    .calendar__sign-up_text {
+    .calendar__sign-up__type_text {
         margin-left: 10px;
     }
 
@@ -252,13 +252,6 @@
     }
 }
 
-@media (max-width: 1024px) {
-    
-    .calendar {
-        max-width: 370px;
-    }
-}
-
 @media (max-width: 440px) {
     
     .calendar__event {
@@ -266,33 +259,20 @@
     }
 }
 
-@media (max-width: 440px) {
-    
-    .calendar {
-        max-width: 290px;
-    }
-}
 
 
 
 /*-------------POPUP---------------*/
-@media (max-width: 1920px) and (min-width: 800px) {
+
+
+@media (max-width: 640px) {
 
     .calendar__popup {
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 60px 15px 30px;
     }
-}
 
-
-@media (max-width: 799px) and (min-width: 320px) {
-
-    .calendar__popup {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 60px;
-        padding-bottom: 30px;
+    .calendar__text_popup {
+        font-size: 12px;
+        line-height: 17px;
     }
 }
