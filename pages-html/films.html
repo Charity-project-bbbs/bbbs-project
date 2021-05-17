@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/bookspage.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../pages/films.css">
+    <title>СБСС | Фильмы</title>
 </head>
 
 <body class="root">
     <header class="header">
         <div class="header__wrapper">
-            <a class="header__logo" href="./index.html"></a>
+            <a class="header__logo" href="../index.html"></a>
             <button type="button" class="header__burger-btn"></button>
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="header__list-item calender-open"><a href="#" class="header__list-link">Календарь</a></li>
-                    <li class="header__list-item"><a href="./whereToGo.html" class="header__list-link">Куда пойти</a></li>
-                    <li class="header__list-item"><a href="./questions.html" class="header__list-link">Вопросы</a></li>
-                    <li class="header__list-item"><a href="./readAndWatch.html" class="header__list-link">Читать и смотреть</a></li>
+                    <li class="header__list-item"><a href="../pages-html/where_to_go.html" class="header__list-link">Куда пойти</a></li>
+                    <li class="header__list-item"><a href="../pages-html/questions.html" class="header__list-link">Вопросы</a></li>
+                    <li class="header__list-item"><a href="../pages-html/read_watch.html" class="header__list-link">Читать и смотреть</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Права детей</a></li>
                     <li class="header__list-item"><a href="#" class="header__list-link">Истории</a></li>
                 </ul>
@@ -36,9 +36,9 @@
                     <ul class="header__burger-list">
                         <li class="header__burger-item"><a href="#" class="header__burger-link">О проекте</a></li>
                         <li class="header__burger-item"><a href="#" class="header__burger-link calender-open">Календарь</a></li>
-                        <li class="header__burger-item"><a href="./whereToGo.html" class="header__burger-link">Куда пойти</a></li>
-                        <li class="header__burger-item"><a href="./questions.html" class="header__burger-link">Вопросы</a></li>
-                        <li class="header__burger-item"><a href="./readAndWatch.html" class="header__burger-link">Читать и смотреть</a></li>
+                        <li class="header__burger-item"><a href="../pages-html/where_to_go.html" class="header__burger-link">Куда пойти</a></li>
+                        <li class="header__burger-item"><a href="../pages-html/questions.html" class="header__burger-link">Вопросы</a></li>
+                        <li class="header__burger-item"><a href="../pages-html/read_watch.html" class="header__burger-link">Читать и смотреть</a></li>
                         <li class="header__burger-item"><a href="#" class="header__burger-link">Права детей</a></li>
                         <li class="header__burger-item"><a href="#" class="header__burger-link">Истории</a></li>
                     </ul>
@@ -57,77 +57,35 @@
     </header>
 
     <main class="content root__section">
-        <section class="bookpage">
-            <h1 class="heading">Книги</h1>
+        <section class="filmpage">
+            <h1 class="heading">Фильмы</h1>
             <div class="buttons-scroll">
                 <button class="button button_color_black button_color_black_active" type="button">Все</button>
-                <button class="button button_color_black" type="button">Научные</button>
-                <button class="button button_color_black" type="button">Художественные</button>
+                <button class="button button_color_black" type="button">Документальный</button>
+                <button class="button button_color_black" type="button">Драма</button>
+                <button class="button button_color_black" type="button">Приключение</button>
+                <button class="button button_color_black" type="button">Комедия</button>
             </div>
-
-            <ul class="bookpage__list books">
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
+            <ul class="movies filmpage__list">
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
-                            <p class="event-article__paragraph">
-                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
-                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
-                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
-                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
-                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
-                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
-                                потом понимать чуть лучше&nbsp;и,
-                            </p>
-                        </article>
-                    </div>
-                </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик,</p>
-                                <p class="book__year">2011 год</p>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
                             </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
                         </div>
                     </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
-                            <p class="event-article__paragraph">
-                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
-                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
-                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
-                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
-                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
-                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
-                                потом понимать чуть лучше&nbsp;и,
-                            </p>
-                        </article>
-                    </div>
-                </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="book__desc">
+                    <div class="movie__desc">
                         <article class="event-article event-article_size_small event-article_place_book">
                             <p class="event-article__paragraph">
                                 Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
@@ -141,68 +99,25 @@
                         </article>
                     </div>
                 </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
-                            <p class="event-article__paragraph">
-                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
-                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
-                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
-                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
-                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
-                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
-                                потом понимать чуть лучше&nbsp;и,
-                            </p>
-                        </article>
-                    </div>
-                </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик,</p>
-                                <p class="book__year">2011 год</p>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Жизнь кабачка</h3>
+                                <p class="movie__caption">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
                             </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
                         </div>
                     </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
-                            <p class="event-article__paragraph">
-                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
-                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
-                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
-                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
-                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
-                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
-                                потом понимать чуть лучше&nbsp;и,
-                            </p>
-                        </article>
-                    </div>
-                </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="book__desc">
+                    <div class="movie__desc">
                         <article class="event-article event-article_size_small event-article_place_book">
                             <p class="event-article__paragraph">
                                 Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
@@ -216,19 +131,26 @@
                         </article>
                     </div>
                 </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
                     </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
+                    <div class="movie__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
                             <p class="event-article__paragraph">
                                 Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
                                 говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
@@ -241,19 +163,26 @@
                         </article>
                     </div>
                 </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты. Психология горевания</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик,</p>
-                                <p class="book__year">2011 год</p>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Жизнь кабачка</h3>
+                                <p class="movie__caption">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
                     </div>
-                    <div class="book__desc">
-                        <article class="event-article event-article_size_small  event-article_place_book">
+                    <div class="movie__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
                             <p class="event-article__paragraph">
                                 Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
                                 говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
@@ -266,18 +195,121 @@
                         </article>
                     </div>
                 </li>
-                <li class="book">
-                    <div class="book__item">
-                        <div class="book__canvas">
-                            <h3 class="book__heading">Жизнь после утраты</h3>
-                            <div class="book__caption">
-                                <div class="book__line"></div>
-                                <p class="book__author">Волкан Вамик, Зинтл Элизабет</p>
-                                <p class="book__year">2011 год</p>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
                             </div>
                         </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
                     </div>
-                    <div class="book__desc">
+                    <div class="movie__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </div>
+                    <div class="movie__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </div>
+                    <div class="movie__desc">
+                        <article class="event-article event-article_size_small event-article_place_book">
+                            <p class="event-article__paragraph">
+                                Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
+                                говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество
+                                вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать
+                                чуть лучше&nbsp;и, Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как
+                                ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное
+                                количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга,
+                                потом понимать чуть лучше&nbsp;и,
+                            </p>
+                        </article>
+                    </div>
+                </li>
+                <li class="movie movie__films">
+                    <div class="movie__item">
+                        <a class="mainlink" href="#"></a>
+                        <div class="movie__img">
+                            <img class="movie__poster" src="../images/movie.png" alt="">
+                            <div class="movie__tags">
+                                <p class="tag">рубрика</p>
+                                <p class="tag">рубрика</p>
+                            </div>
+                        </div>
+                        <div class="movie__descriprion">
+                            <div class="movie__name">
+                                <h3 class="movie__title">Волчок</h3>
+                                <p class="movie__caption">Василий Сигарев, Россия, 2009 год</p>
+                            </div>
+                            <a class="movie__link" href="#" target="_blank" rel="noopener">смотреть трейлер</a>
+                        </div>
+                    </div>
+                    <div class="movie__desc">
                         <article class="event-article event-article_size_small event-article_place_book">
                             <p class="event-article__paragraph">
                                 Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился
@@ -292,6 +324,7 @@
                     </div>
                 </li>
             </ul>
+   
 
 
             <div class="pagination">
@@ -311,8 +344,8 @@
 
     <footer class="footer">
         <div class="footer__wrapper">
-            <a class="logo logo_place_footer" href="#">
-                <img class="logo__img" src="./images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
+            <a class="logo logo_place_footer" href="../index.html">
+                <img class="logo__img" src="../images/logoSBSS.svg" alt="Логотип Старшие Братья Старшие Сестры">
             </a>
             <button type="button" class="button button_place_footer">Помочь деньгами</button>
             <div class="footer__navigation">

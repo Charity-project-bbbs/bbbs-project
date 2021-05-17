@@ -33,7 +33,7 @@
     min-height: 320px;
 }
 
-.book__canvas:nth-child(2n) {
+.book:nth-child(2n) .book__canvas {
     background-color: #C8D1FF;
 }
 
