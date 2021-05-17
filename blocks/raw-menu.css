@@ -12,6 +12,10 @@
     background-color: rgba(243, 242, 242, 1);
 }
 
+.header__list-item_guide:hover .raw-menu {
+    display: flex;
+}
+
 .raw-menu__item {
     margin-bottom: 10px;
 }

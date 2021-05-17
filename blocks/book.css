@@ -53,12 +53,14 @@
     align-items: center;
 }
 
-.book__line {
+.book__caption::before {
+    content: '';
+    display: block;
     background: #000000;
     height: 1px;
     width: 66.67px;
     margin-bottom: 20px;
-}
+} 
 
 .book__author {
     font-family: 'PT Proto', Arial, sans-serif;
@@ -107,7 +109,7 @@
     }
 
     
-    .book__line {
+    .book__caption::before {
         width: 60px;
         margin-bottom: 15px;
     }

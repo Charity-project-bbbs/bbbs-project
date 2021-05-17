@@ -56,10 +56,6 @@
     position: relative;
 }
 
-.header__list-item_guide:hover .raw-menu {
-    display: flex;
-}
-
 .header__list-item:last-child {
     margin-right: 0;
 }
@@ -318,10 +314,6 @@
     }
 
     .header__list {
-        display: none;
-    }
-
-    .header__line {
         display: none;
     }
     
