@@ -1,0 +1,19 @@
+@font-face {
+    src: url('./fonts/Proto\ Grotesk-Light-Web.eot') format('eot'), 
+    url('./fonts/Proto\ Grotesk-Light-Web.ttf') format('truetype'),
+    url('./fonts/Proto\ Grotesk-Light-Web.woff') format('woff'),
+    url('./fonts/Proto\ Grotesk-Light-Web.woff2') format('woff2');
+    font-family: 'Proto';
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('./fonts/PT-Root-UI_Regular.eot') format('eot'),
+    url('./fonts/PT-Root-UI_Regular.ttf') format('truetype'),
+    url('./fonts/PT-Root-UI_Regular.woff') format('woff'),
+    url('./fonts/PT-Root-UI_Regular.woff2') format('woff2');
+    font-family: 'PT Root';
+    font-style: normal;
+    font-weight: 400;
+}
