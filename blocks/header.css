@@ -122,12 +122,13 @@
     height: 20px;
     background-color: #A7A6A6;
     left: -20px;
-    top: 2px;
+    top: 5px;
     position: relative;
 }
 
 .header__button-login_authorized {
     background-image: url(../images/lk.svg);
+    text-decoration: none;
 }
 
 .header__burger {

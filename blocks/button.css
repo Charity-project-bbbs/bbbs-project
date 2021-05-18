@@ -68,6 +68,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 
@@ -132,13 +133,13 @@
 @media (max-width: 1024px) {
     
     .button {
-        padding: 11px 15px 8px 15px;
+        padding: 11px 15px;
         font-size: 12px;
         line-height: 17px;
     }
 
     .button_color_blue {
-        padding: 11px 15px 8px 15px;
+        padding: 11px 15px;
         font-size: 12px;
         line-height: 17px;
     }

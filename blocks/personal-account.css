@@ -27,6 +27,11 @@
     line-height: 26px;
     text-align: right;
     color: #A7A6A6;
+    cursor: pointer;
+}
+
+.personal-account__text:hover {
+    color: #224CFF;
 }
 
 .personal-account__text:last-of-type {
@@ -84,6 +89,24 @@
     overflow: hidden;
 }
 
+.personal-account__button {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    line-height: 0;
+    opacity: 0;
+    background-image: url(../images/personal-account-btn-add-photo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .personal-account__photo-text {
     margin: 0;
     padding: 0;
@@ -92,23 +115,22 @@
     font-size: 15px;
     line-height: 19px;
     color: #A7A6A6;
+    cursor: pointer;
+    position: relative;
 }
 
-.personal-account__button {
+.personal-account__photo-text::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 33px;
+    left: 7px;
     width: 100px;
     height: 100px;
-    margin: 0;
-    margin-bottom: 15px;
-    padding: 0;
     background-image: url(../images/personal-account-btn-add-photo.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 0;
-    line-height: 0;
 }
 
 .personal-account__inputs {
@@ -177,6 +199,14 @@
     grid-column: 1/2;
 }
 
+.personal-account__radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
 .personal-account__feedback-button {
     width: 26px;
     height: 26px;
@@ -185,49 +215,40 @@
     padding: 0;
     border: none;
     background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 
 .personal-account__feedback-button_good {
     background-image: url(../images/feedback-good-black.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
+
 
 .personal-account__feedback-button_normal {
     background-image: url(../images/feedback-normal-black.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
 }
 
 .personal-account__feedback-button_bad {
     background-image: url(../images/feedback-bad-black.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
 }
 
-.personal-account__feedback-button_good_type_active {
+.personal-account__feedback-button_good-active, .personal-account__radio:checked + .personal-account__feedback-button_good {
     background-image: url(../images/feedback-good-color.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
 }
 
-.personal-account__feedback-button_normal_type_active {
+.personal-account__feedback-button_normal-active, .personal-account__radio:checked + .personal-account__feedback-button_normal {
     background-image: url(../images/feedback-normal-color.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
 }
 
-.personal-account__feedback-button_bad_type_active {
+.personal-account__feedback-button_bad-active, .personal-account__radio:checked + .personal-account__feedback-button_bad {
     background-image: url(../images/feedback-bad-color.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
 }
+
+.personal-account__label {
+    cursor: pointer;
+}
+
 
 .personal-account__feedback-text {
     margin: 0;
@@ -252,7 +273,7 @@
     color: #FF8585;
 }
 
-.personal-account__feedback-delete_type_text {
+.personal-account__feedback-btn_type_text {
     margin: 0;
     margin-right: 20px;
     padding: 0;
@@ -263,6 +284,25 @@
     color: #A7A6A6;
     border: none;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.personal-account__feedback-btn_type_active {
+    color: #000000;
+}
+
+.personal-account__feedback-btn_type_text:hover {
+    color: #000000;
+}
+
+.personal-account__share::before {
+    content: url(../images/arrow1.svg);
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 152px;
+    display: none;
 }
 
 .personal-account__submit {
@@ -445,7 +485,7 @@
     height: 15px;
 }
 
-/* .personal-account__feedback-delete_type_text:not(:first-of-type) {
+/* .personal-account__feedback-btn_type_text:not(:first-of-type) {
     margin-top: 30px;
 } */
 
@@ -547,28 +587,27 @@
 
     .personal-account__submit-added {
         display: grid;
-        margin-top: 0;
+        margin-top: 20px;
+        row-gap: 10px;
         grid-template-columns: 70% 30%;
-        grid-template-rows: 50% 50%;
     }
 
-    .personal-account__feedback-delete_type_text:nth-of-type(1) {
+    .personal-account__feedback-btn_type_text:nth-of-type(1) {
         grid-column: 1/2;
-        margin-top: 30px;
         margin-right: 0;
+        justify-self: start;
+        position: relative;
     }
 
-    .personal-account__feedback-delete_type_text:nth-of-type(2) {
-        grid-row: 2/3;   
-        margin-top: 30px;
+    .personal-account__feedback-btn_type_text:nth-of-type(2) {
+        grid-column: 2/3;
+        justify-self: end; 
     }
 
-    .personal-account__feedback-delete_type_text:nth-of-type(3) {
+    .personal-account__feedback-btn_type_text:nth-of-type(3) {
         grid-column: 2/3;
         grid-row: 2/3;
-        margin-top: 30px;
-        justify-self: right;
-        
+        justify-self: right;  
     }
 }
 
@@ -624,12 +663,18 @@
         height: 80px;
     }
 
+    .personal-account__photo-text::before {
+        left: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
     .personal-account__feedback-text {
         font-size: 12px;
         line-height: 17px;
     }
 
-    .personal-account__feedback-delete_type_text {
+    .personal-account__feedback-btn_type_text {
         font-size: 12px;
         line-height: 17px;
     }
@@ -650,6 +695,15 @@
     .personal-account__input_text_place {
         font-size: 19px;
         line-height: 23px;
+    }
+
+    .personal-account__feedback-button {
+        width: 23px;
+        height: 23px;
+    }
+
+    .personal-account__share::before {
+        display: block;
     }
 }
 
@@ -695,25 +749,16 @@
         line-height: 17px;
     }
 
-    .personal-account__photo-text {
-        font-size: 12px;
-        line-height: 17px;
-    }
-
     .personal-account__input {
         font-size: 12px;
         line-height: 17px;
     }
 
-    .personal-account__feedback-delete_type_text:nth-of-type(1) {
+    .personal-account__feedback-btn_type_text:nth-of-type(2) {
         margin-top: 10px;
     }
 
-    .personal-account__feedback-delete_type_text:nth-of-type(2) {
-        margin-top: 10px;
-    }
-
-    .personal-account__feedback-delete_type_text:nth-of-type(3) {
+    .personal-account__feedback-btn_type_text:nth-of-type(3) {
         margin-top: 10px;
     }
     

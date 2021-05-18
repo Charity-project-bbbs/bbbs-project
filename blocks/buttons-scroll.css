@@ -27,9 +27,15 @@
     margin: 0 auto;
   }
 
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .buttons-scroll {
         max-width: 646px;
     }
+}
+
+@media (max-width: 640px) {
+  .buttons-scroll {
+    justify-content: flex-start;
+  }
 }
