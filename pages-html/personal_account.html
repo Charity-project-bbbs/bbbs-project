@@ -76,8 +76,8 @@
 
             <form class="personal-account__form">
                 <div class="personal-account__photo">
-                    <button class="personal-account__button" type="button"></button>
-                    <p class="personal-account__photo-text">Загрузить фото</p>
+                    <input id="personal-account__photo-add" class="personal-account__button" type="file">
+                    <label for="personal-account__photo-add" class="personal-account__photo-text">Загрузить фото</label>
                 </div>
                 <div class="personal-account__inputs">
                     <input class="personal-account__input personal-account__input_type_place" type="text"
@@ -88,15 +88,15 @@
                         name="description"></textarea>
                      <div class="personal-account__feedback">
                         <button class="personal-account__feedback-button personal-account__feedback-button_good"
-                            type="button" name="good"></button>
+                            type="radio" name="good"></button>
                         <button class="personal-account__feedback-button personal-account__feedback-button_normal"
-                            type="button" name="normal"></button>
+                            type="radio" name="normal"></button>
                         <button class="personal-account__feedback-button personal-account__feedback-button_bad"
-                            type="button" name="bad"></button>
+                            type="radio" name="bad"></button>
                         <p class="personal-account__feedback-text">Оцените проведенное время</p>
                     </div>
                     <div class="personal-account__submit">
-                        <p class="personal-account__feedback-delete_type_text">Удалить</p>
+                        <button class="personal-account__feedback-delete_text" type="button">Удалить</button>
                         <button class="button button_color_black-nonactive" type="submit">Добавить</button>
                     </div>
                 </div>
@@ -104,8 +104,8 @@
 
             <form class="personal-account__form">
                 <div class="personal-account__photo">
-                    <button class="personal-account__button" type="button"></button>
-                    <p class="personal-account__photo-text">Загрузить фото</p>
+                    <input id="personal-account__photo-add" class="personal-account__button" type="file">
+                    <label for="personal-account__photo-add" class="personal-account__photo-text">Загрузить фото</label>
                 </div>
                 <div class="personal-account__inputs">
                     <input class="personal-account__input personal-account__input_type_place" type="text"
@@ -117,16 +117,16 @@
                         name="description"></textarea>
                      <div class="personal-account__feedback">
                         <button class="personal-account__feedback-button personal-account__feedback-button_good personal-account__feedback-button_good_type_active"
-                            type="button" name="good"></button>
+                            type="radio" name="good"></button>
                         <button class="personal-account__feedback-button personal-account__feedback-button_normal"
-                            type="button" name="normal"></button>
+                            type="radio" name="normal"></button>
                         <button class="personal-account__feedback-button personal-account__feedback-button_bad"
-                            type="button" name="bad"></button>
+                            type="radio" name="bad"></button>
                         <p class="personal-account__feedback-text personal-account__feedback-text_type_good">Было классно!</p>
                     </div>
                     <div class="personal-account__submit">
-                        <p class="personal-account__feedback-delete_type_text">Удалить</p>
-                        <button class="button button_color_blue" type="submit">Добавить</button>
+                        <button class="personal-account__feedback-delete_text" type="button">Удалить</button>
+                        <button class="button button_color_black-nonactive" type="submit">Добавить</button>
                     </div>
                 </div>
             </form>
