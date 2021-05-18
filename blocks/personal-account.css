@@ -106,6 +106,9 @@
     background-size: cover;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+    font-size: 0;
+    line-height: 0;
 }
 
 .personal-account__inputs {
@@ -258,6 +261,8 @@
     font-size: 15px;
     line-height: 19px;
     color: #A7A6A6;
+    border: none;
+    background-color: transparent;
 }
 
 .personal-account__submit {
@@ -340,7 +345,7 @@
     margin: 0;
     margin-top: 10px;
     padding: 0;
-    font-family: 'PT Root';
+    font-family: 'PT Root', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
