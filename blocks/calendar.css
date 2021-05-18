@@ -9,6 +9,7 @@
     color: black;
     border-radius: 30px;
     position: relative;
+    box-sizing: border-box;
 }
 
 /* ABOUT */
@@ -20,9 +21,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
 }
 
 .calendar__participants {
+    width: 50%;
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
@@ -80,6 +83,10 @@
     font-size: 14px;
     line-height: 19px;
     list-style-type: none;
+}
+
+.calendar__contacts_place_main {
+    margin-top: 156px;
 }
 
 .calendar__contacts-item {
@@ -147,6 +154,11 @@
     align-items: center;
 }
 
+.calendar__btn {
+    width: 48px;
+    height: 48px;
+}
+
 /*CALENDAR ONCLICK*/
 .calendar_onclick {
     background-color: #C8D1FF;
@@ -188,6 +200,10 @@
     
     .calendar__event {
         max-width: 320px;
+    }
+
+    .calendar__contacts_place_main {
+        margin-top: 50px;
     }
 }
 
@@ -250,6 +266,11 @@
 
     .calendar__phone {
         margin-top: 5px;
+    }
+
+    .calendar__btn {
+        width: 40px;
+        height: 40px;
     }
 }
 
