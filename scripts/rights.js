@@ -1,4 +1,4 @@
-const items = document.querySelectorAll('.guide__item')
+const items = document.querySelectorAll('.law__item')
 
 let documentWidth = document.documentElement.clientWidth //ширина экрана
 
@@ -8,7 +8,7 @@ function renderItems () {
     if (documentWidth <= 1024) {
         items.forEach ((item, index) => {
             if (index > 3) {
-                item.classList.add('guide__item_hidden')
+                item.classList.add('law__item_hidden')
             }
         })
     } 
@@ -24,7 +24,7 @@ window.addEventListener("resize", () => {
     if (documentWidth > 1024) {
         items.forEach ((item, index) => {
             if (index > 1) {
-                item.classList.remove('guide__item_hidden')
+                item.classList.remove('law__item_hidden')
             }
         })
     }
@@ -32,7 +32,7 @@ window.addEventListener("resize", () => {
     if (documentWidth < 1024) {
         items.forEach ((item, index) => {
             if (index > 3) {
-                item.classList.add('guide__item_hidden')
+                item.classList.add('law__item_hidden')
             }
         })
     }
