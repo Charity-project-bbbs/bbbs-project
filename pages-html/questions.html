@@ -57,7 +57,7 @@
     </header>
 
     <main>
-        <section class="questions__section">
+        <section class="questions__section content">
             <h1 class="heading">Ответы на вопросы</h1>
             <div class="buttons-scroll buttons-scroll_place_event">
                 <button class="button button_color_black" type="button">Все</button>
@@ -85,58 +85,69 @@
             </div>
 
                 <ul class="questions questions__page-list">
-                    <div class="question_flex">
-                    <li class="question">
-                        <a class="mainlink" href="#"></a>
-                        <h3 class="question__title">Я&nbsp;боюсь, что ребёнок ко&nbsp;мне слишком сильно привяжется. 
-                            Что делать?
-                        </h3>
-                        <div class="question__tags">
-                            <p class="tag tag_theme_white">рубрика</p>
+                    <li class="question__flex">
+                        <div class="question">
+                            <a class="mainlink" href="#"></a>
+                            <h3 class="question__title">Я&nbsp;боюсь, что ребёнок ко&nbsp;мне слишком сильно привяжется. 
+                                Что делать?
+                            </h3>
+                            <div class="question__tags">
+                                <p class="tag tag_theme_white">рубрика</p>
+                            </div>
                         </div>
+                        <img src="../images/questions-button.svg" alt="#" class="questions__open">
                     </li>
-                    <img src="../images/questions-button.svg" alt="#" class="questions__open">
-                </div>
-                    
-                <div class="question_flex">
-                    <li class="question">
-                        <a class="mainlink" href="#"></a>
-                        <h3 class="question__title">Возможно&nbsp;ли продлить срок участия в&nbsp;программе, 
-                            если и&nbsp;я&nbsp;и&nbsp;мой &laquo;младший&raquo; хотим остаться в&nbsp;программе?
-                        </h3>
-                        <div class="question__tags">
-                            <p class="tag tag_theme_white">рубрика</p>
-                        </div>
-                    </li>
-                    <img src="../images/questions-button.svg" alt="#" class="questions__open">
-                    </div>
 
-                    <div class="question_flex">
-                    <li class="question">
-                        <a class="mainlink" href="#"></a>
-                        <h3 class="question__title">Что делать если Ваш младший решил закрыть пару, т.к. слишком 
-                            занят с&nbsp;учебой и&nbsp;друзьями?
-                        </h3>
-                        <div class="question__tags">
-                            <p class="tag tag_theme_white">рубрика</p>
+                    <li class="question__flex">
+                        <div class="question">
+                            <a class="mainlink" href="#"></a>
+                            <h3 class="question__title">Возможно&nbsp;ли продлить срок участия в&nbsp;программе, 
+                                если и&nbsp;я&nbsp;и&nbsp;мой &laquo;младший&raquo; хотим остаться в&nbsp;программе?
+                            </h3>
+                            <div class="question__tags">
+                                <p class="tag tag_theme_white">рубрика</p>
+                            </div>
                         </div>
+                        <img src="../images/questions-button.svg" alt="#" class="questions__open">
                     </li>
-                    <img src="../images/questions-button.svg" alt="#" class="questions__open">
-                </div>
-                    
-                <div class="question_flex">
-                    <li class="question">
-                        <a class="mainlink" href="#"></a>
-                        <h3 class="question__title">Что делать если Ваш младший решил закрыть пару, т.к. слишком 
-                            занят с&nbsp;учебой и&nbsp;друзьями?
-                        </h3>
-                        <div class="question__tags">
-                            <p class="tag tag_theme_white">рубрика</p>
+
+                    <li class="question__flex">
+                        <div class="question">
+                            <a class="mainlink" href="#"></a>
+                            <h3 class="question__title">Что делать если Ваш младший решил закрыть пару, т.к. слишком 
+                                занят с&nbsp;учебой и&nbsp;друзьями?
+                            </h3>
+                            <div class="question__tags">
+                                <p class="tag tag_theme_white">рубрика</p>
+                            </div>
                         </div>
+                        <img src="../images/questions-button.svg" alt="#" class="questions__open">
                     </li>
-                    <img src="../images/questions-button.svg" alt="#" class="questions__open">
-                    </div>
+
+                    <li class="question__flex">
+                        <div class="question">
+                            <a class="mainlink" href="#"></a>
+                            <h3 class="question__title">Что делать если Ваш младший решил закрыть пару, т.к. слишком 
+                                занят с&nbsp;учебой и&nbsp;друзьями?
+                            </h3>
+                            <div class="question__tags">
+                                <p class="tag tag_theme_white">рубрика</p>
+                            </div>
+                        </div>
+                        <img src="../images/questions-button.svg" alt="#" class="questions__open">
+                    </li>
                 </ul>
+
+                <form class="questions__form" name="ask" action="/" method="POST">
+                    <h3 class="guestions__form-heading">Если вы не нашли ответ на свой вопрос — напишите нам, и мы включим его в&nbsp;список</h3>
+                    <div class="questions__ask">
+                        <input class="guestions__input" type="text" name="askme" id="askme" placeholder="Введите вопрос" required minlength="2">
+                        <button type="submit" class="button">Отправить</button>
+                    </div>
+                </form>
+
+                <p class="questions__result questions__result_hidden">Спасибо! Мы приняли ваш вопрос.</p>
+
         </section>
     </main>
 
@@ -178,6 +189,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="../scripts/guastions.js"></script>
 </body>
 
 </html>

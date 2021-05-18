@@ -33,10 +33,3 @@
         max-width: 646px;
     }
 }
-
-@media (max-width: 480px) {
-    
-    .buttons-scroll {
-        margin-bottom: 10px;
-    }
-}
