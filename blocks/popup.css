@@ -14,26 +14,8 @@
     z-index: 5;
 }
 
-.popup_type_video {
-    overflow-y: hidden;
-}
-
 .popup_opened {
     display: flex;
-}
-
-.popup__success {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    overflow-y: scroll;  
 }
 
 .popup__button-close { 
@@ -51,6 +33,67 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.popup__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A1A;
+    max-width: 410px;
+}
+
+
+/* ТИПЫ ПОПАПОВ И ИХ КОНТЕЙНЕРОВ */
+
+.popup_type_video {
+    overflow-y: hidden;
+}
+
+.popup_type_success {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;  
+}
+
+.popup__personal-account {
+    position: fixed;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__buttons {
+    width: 228px;
+    margin: 30px auto 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ФОРМЫ ПОПАПОВ */
 
 .popup__form {
     display: flex;
@@ -213,7 +256,32 @@
     grid-column: 6/8;
 }
 
+@media (max-width: 1024px) {
+    
+    .popup__title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 880px) {
+    
+    .popup__personal-account  {
+        max-width: 470px;
+    }
+
+    .popup__buttons {
+        width: 170px;
+    }
+}
+
+
 @media (max-width: 660px) {
+    .popup__personal-account {
+        max-width: 320px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 
     .popup__input_type_name {
         grid-column: 1/7;

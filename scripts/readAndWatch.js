@@ -1,5 +1,5 @@
 const guideitems = document.querySelectorAll('.guide__item')
-const movieitems = document.querySelectorAll('.movie__video')
+const movieitems = document.querySelectorAll('.movie_type_video')
 const filmitems = document.querySelectorAll('.movie__film')
 const bookitems = document.querySelectorAll('.book')
 const articlesitems = document.querySelectorAll('.event-soon')
@@ -32,7 +32,7 @@ function render (arr, selector) {
 }
    
 render (guideitems, 'guide__item_hidden')
-render (movieitems, 'movie__video_hidden')
+render (movieitems, 'movie_type_video_hidden')
 render (filmitems, 'movie__film_hidden')
 render (bookitems, 'book_hidden')
 render (articlesitems, 'event-soon_hidden')

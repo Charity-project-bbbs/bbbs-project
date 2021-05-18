@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-.guide__all {
+.guide_type_all {
     gap: 80px;
     margin-bottom: 80px;
 }
@@ -105,7 +105,7 @@
         grid-template-columns: repeat(2, 1fr);
     }  
     
-    .guide__all {
+    .guide_type_all {
         gap: 30px;
         margin-bottom: 60px;
     }
@@ -136,7 +136,7 @@
         grid-template-columns: 1fr;
     }
 
-    .guide__all {
+    .guide_type_all {
         margin-bottom: 30px;
     }
 

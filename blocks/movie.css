@@ -8,11 +8,11 @@
     position: relative;
 }
 
-.movie__films {
+.movie_type_films {
     background-color: transparent;
 }
 
-.movie__video_hidden {
+.movie_type_video_hidden {
     display: none;
 }
 

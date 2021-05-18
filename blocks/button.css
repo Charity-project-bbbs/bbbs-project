@@ -57,7 +57,7 @@
 }
 
 /*-----trans round-----*/
-.button__round_transparent-plus {
+.button_type_round {
     background-image: url(../images/trans-blue-plus.svg);
     background-position: center;
     background-size: cover;
