@@ -86,4 +86,14 @@
         font-size: 12px;
         line-height: 17px;
     }
+
+    .project-card__title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .about-project-quote {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
   }
