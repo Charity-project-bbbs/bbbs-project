@@ -20,6 +20,12 @@
     margin: 40px 0 70px 30px;
 }
 
+.logo_place_about {
+    width: 357px;
+    height: 65px;
+    margin: 50px auto 80px;
+}
+
 @media (max-width: 1440px) {
     .logo_place_mainpage {
         margin-top: 35px; 
@@ -38,11 +44,21 @@
         width: 252px;
         height: 46px;
     }
+
+    .logo_place_about {
+        width: 252px;
+        height: 46px;
+        margin: 30px auto 50px;
+    }
 }
 
 @media (max-width: 860px) {
     .logo_place_mainpage {
         margin-top: 22px; 
         margin-bottom: 26px;
+    }
+
+    .logo_place_about {
+        margin: 20px auto 30px;
     }
 }

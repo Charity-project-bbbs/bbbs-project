@@ -1,0 +1,48 @@
+.circle {
+    width: 570px;
+    height: 570px;
+    border-radius: 50%;
+    background-color: #F8D162;
+    display: flex;
+}
+
+.circle_size_small {
+    height: 120px;
+    border-radius: 70px;
+}
+
+.circle_color_blue {
+    background-color: #C8D1FF;
+}
+
+.circle__caption {
+    margin: auto;
+}
+
+.circle__title {
+    font-family: 'Proto', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 1400px) {
+    .circle {
+        width: 370px;
+        height: 358px;
+    }
+
+    .circle__title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 850px) {
+    .circle {
+        width: 290px;
+        height: 280px;
+      }
+}

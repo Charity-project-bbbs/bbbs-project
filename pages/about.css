@@ -1,0 +1,22 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts.css);
+
+@import url(../blocks/root.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/button.css);
+@import url(../blocks/tag.css);
+
+@import url(../blocks/content.css);
+@import url(../blocks/logo.css);
+
+@import url(../blocks/title.css);
+@import url(../blocks/about-project.css);
+@import url(../blocks/circle.css);
+@import url(../blocks/project-article.css);
+
+@import url(../blocks/about-project-quote.css);
+@import url(../blocks/quote.css);
+
+@import url(../blocks/project-cards.css);
+@import url(../blocks/project-card.css);

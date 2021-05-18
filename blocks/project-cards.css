@@ -1,0 +1,22 @@
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 1400px) {
+    .project-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .project-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

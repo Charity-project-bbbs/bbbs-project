@@ -1,0 +1,25 @@
+.title {
+    max-width: 1170px;
+    font-family: 'Proto', Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (max-width: 1440px) {
+    .title {
+        max-width: 1030px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title {
+        max-width: 770px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}

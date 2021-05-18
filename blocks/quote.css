@@ -1,0 +1,44 @@
+.quote {
+    padding: 60px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.quote__text {
+    max-width: 1170px;
+    font-family: 'Proto', Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.quote__text::before {
+    content: none;
+}
+
+.quote__text::after {
+    content: none;
+}
+
+@media (max-width: 1440px) {
+    .quote__text {
+        max-width: 974px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .quote {
+        padding: 30px 0;
+    }
+
+    .quote__text {
+        font-size: 23px;
+        line-height: 30px;
+        max-width: 770px;
+    }
+}
+
