@@ -12,6 +12,7 @@
     border-radius: 70px;
     box-sizing: border-box;
     padding: 45px 0;
+    display: flex;
 }
 
 .project-card__caption_color_blue {
@@ -33,6 +34,12 @@
     font-weight: 300;
     text-align: center;
     color: #000000;
+    text-decoration: none;
+    margin: auto;
+}
+
+.project-card__title:hover {
+    color: #224CFF;
 }
 
 .project-card__description {
