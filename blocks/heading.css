@@ -8,6 +8,11 @@
     line-height: 80px;
     text-align: center;
 }
+
+.heading_place_articles {
+    margin-bottom: 0;
+}
+
 @media (max-width: 1024px) {
     .heading {
         font-size: 37px;

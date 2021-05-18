@@ -1,24 +1,35 @@
-.bookpage {
+.videopage {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.bookpage__list {
+.videopage__bigvideo {
     margin: 70px 0 80px;
 }
 
+.videopage__list {
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
 @media (max-width: 1024px) {   
-    .bookpage__list {
-        gap: 30px;
+    .videopage__bigvideo {
         margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .videopage__list {
         margin-bottom: 60px;
     }
 }
 
 @media (max-width: 640px) {
-    .bookpage__list {
+    .videopage__bigvideo {
         margin-top: 20px;
+    }
+
+    .videopage__list {
         margin-bottom: 30px;
     }
 

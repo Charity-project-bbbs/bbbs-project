@@ -1,0 +1,25 @@
+@import url(../vendors/normalize.css);
+
+@import url(../vendors/fonts.css);
+
+@import url(../blocks/root.css);
+
+@import url(../blocks/header.css);
+
+@import url(../blocks/footer.css);
+
+
+@import url(../blocks/content.css);
+@import url(../blocks/logo.css);
+@import url(../blocks/button.css);
+@import url(../blocks/buttons-scroll.css);
+
+@import url(../blocks/videopage.css);
+@import url(../blocks/mainvideo.css);
+@import url(../blocks/movies.css);
+@import url(../blocks/movie.css);
+@import url(../blocks/heading.css);
+@import url(../blocks/pagination.css);
+@import url(../blocks/mainlink.css);
+@import url(../blocks/popup.css);
+@import url(../blocks/apivideo.css);
