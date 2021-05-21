@@ -13,16 +13,25 @@
 
 .proof__title {
     margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
-    padding-left: 100px;
-    padding-right: 100px;
     color: #000;
     font-family: 'Proto', sans-serif;
     font-weight: 300;
     font-size: 23px;
     line-height: 30px;
     text-align: center;
+    max-width: 570px;
+}
+
+.proof__subtitle {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 570px;
 }
 
 .proof__buttons {
@@ -49,8 +58,12 @@
     }
 
     .proof__title {
-        padding-left: 50px;
         padding-right: 50px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .proof__subtitle {
         font-size: 19px;
         line-height: 23px;
     }
@@ -63,8 +76,4 @@
         padding: 70px 15px;
     }
 
-    .proof__title {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
