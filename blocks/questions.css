@@ -11,9 +11,6 @@
     width: calc(100% - 450px);
 }
 
-.questions__section {
-    margin: 80px auto 120px;
-}
 
 .questions__page-list {
     margin: 0 auto;
@@ -188,11 +185,6 @@
         width: calc(100% - 400px);
     }
 
-    .questions__section {
-        margin-top: 30px;
-        margin-bottom: 100px;
-    }
-
     .questions__page-list {
         margin-top: 50px;
     }
@@ -238,11 +230,6 @@
 @media (max-width: 860px) {
     .questions {
         width: 100%;
-    }
-
-    .questions__section {
-        margin-top: 10px;
-        margin-bottom: 50px;
     }
 
     .questions__page-list {

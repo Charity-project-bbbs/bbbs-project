@@ -1,4 +1,65 @@
 .buttons-scroll {
+  width: 100%;
+  max-width: 1135px;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.buttons-scroll:last-of-type {
+  margin-bottom: 0;
+}
+
+.buttons-scroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.buttons-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+.buttons-scroll_place_event {
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+  .buttons-scroll {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+  }
+
+  /* 
+  класс buttons-scroll_overflow добаваляется тогда, когда количество кнопок слишком велико для показа на экране
+  и появляется прокуртка. Когда кнопок мало, согласно макету, они встают по центру.
+  */
+
+  .buttons-scroll_overflow {
+    margin-left: 127px;
+    width: calc(100% + 127px);
+    justify-content: flex-start;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .buttons-scroll {
+    margin-left: 15px;
+    width: calc(100% + 15px);
+    justify-content: flex-start;
+  }
+
+  .buttons-scroll_place_event {
+    margin-left: 0;
+  }
+}
+
+/*
+.buttons-scroll {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -7,7 +68,6 @@
     text-align: center;
     overflow-x: scroll;
     white-space: nowrap;
-    scrollbar-width: none;
 }
 
 .buttons-scroll:last-of-type {
@@ -35,6 +95,10 @@
 
 @media (max-width: 640px) {
   .buttons-scroll {
+    margin-left: 15px;
+    width: calc(100% + 15px);
     justify-content: flex-start;
   }
 }
+
+*/

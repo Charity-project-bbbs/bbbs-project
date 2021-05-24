@@ -1,0 +1,30 @@
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main__section {
+    margin: 80px auto 120px;
+}
+
+@media (max-width: 1024px) {
+    
+    .main__section {
+        margin-top: 45px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+    .main__section {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .main__section_search {
+        margin-top: 15px;
+    }
+    
+}

@@ -1,7 +1,7 @@
 .storypage {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
 }
 
 .storypage__caption {
@@ -18,8 +18,6 @@
 .storypage__cite {
     margin: 0;
 }
-
-
 
 .storypage__button {
     width: 30px;
@@ -45,16 +43,22 @@
 .storypage__story{
     margin: 0 auto;
     padding: 0;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: visible;
+}
+
+.storypage__story:not(:first-of-type) {
+    border-top: 1px #464646 solid;
+    padding-top: 80px;
 }
 
 .storypage__img {
     display: block;
-    margin: 30px auto 50px;
+    margin: 0 auto 50px;
     border-radius: 30px;
     width: 100%;
     max-width: 1169px;
@@ -97,8 +101,14 @@
     color: rgba(0, 0, 0, 1);
 }
 
-.storypage__paragraph {
+.storypage__paragraph-flex{
+    display: flex;
+    flex-direction: column;
     max-width: 770px;
+    align-items: flex-start;
+}
+
+.storypage__paragraph {
     margin: 0 auto;
     margin-top: 50px;
     padding: 0;
@@ -134,7 +144,7 @@
 
 .storypage__citetext {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -148,28 +158,66 @@
 
 .storypage__slider {
     display: flex;
-    overflow: visible;
     align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .storypage__img_place_slider {
+    max-width: 770px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
     height: 505px;
+    flex-shrink: 0;
+}
+
+.storypage__img_place_slider:first-of-type {
+    margin-left: 0;
 }
 
 .storypage__link {
-
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0;
+    text-align: left;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #224CFF;
+    text-decoration: none;
+    align-self: flex-start;
 }
 
+/* @media (max-width: 1440px) {
+    
+} */
+
 @media (max-width: 1220px) {
+
+    .storypage {
+        margin-top: 40px;
+    }
 
     .storypage__img {
         height: 507px;
     }
+
+    .storypage__img_place_slider {
+        max-width: 570px;
+        height: 379px;
+    }
 }
 
 @media (max-width: 1024px) {
+
+    .storypage__story {
+        padding-top: 0;
+    }
 
     .storypage__caption {
         font-size: 19px;
@@ -184,9 +232,86 @@
         margin-bottom: 20px;
         height: 507px;
     }
+
+    .storypage__heading {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .storypage__together {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .storypage__text {
+        max-width: 770px;
+        font-size: 19px;
+        line-height: 23px;
+        margin-top: 20px;
+    }
+
+    .storypage__paragraph-flex {
+        max-width: 570px;
+    }
+
+    .storypage__paragraph {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 30px;
+    }
+
+    .storypage__cite {
+        max-width: 770px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* .storypage__cite::before {
+        max-width: 770px;
+    }
+    
+    .storypage__cite::after {
+        max-width: 770px;
+    } */
+
+    .storypage__citetext {
+        max-width: 770px;
+        font-size: 23px;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .storypage__slider {
+        margin-bottom: 15px;
+    }
+
+    .storypage__img_place_slider {
+        margin: 0;
+        margin-left: 30px;
+        padding: 0;
+        max-width: 570px;
+        height: 379px;
+    }
+
+    .storypage__button {
+        display: none;
+    }
+
+    .storypage__link {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .storypage__story:not(:first-of-type) {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 640px) {
+
     .storypage__caption {
         max-width: 100%;
     }
@@ -196,11 +321,36 @@
         margin-bottom: 15px;
         height: 405px;
     }
+
+    .storypage__img_place_slider {
+        height: 250px;
+        max-width: 400px;
+        margin-left: 15px;
+    }
+
+    .storypage__paragraph {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 420px) {
 
+    .storypage {
+        margin-top: 10px;
+    }
+
+    .storypage__text {
+        max-width: 291px;
+        margin-bottom: 10px;
+    }
+
     .storypage__img {
         height: 191px;
+    }
+
+    .storypage__img_place_slider {
+        margin-top: 0;
+        height: 172px;
+        max-width: 260px;
     }
 }

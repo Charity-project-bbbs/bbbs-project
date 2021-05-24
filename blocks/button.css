@@ -20,6 +20,10 @@
     background-color: #E0E0E0;
 }
 
+.button_place_scroll {
+    margin-bottom: 10px;
+}
+
 /*-----BLUE-----*/
 .button_color_blue {
     color: #224CFF;
