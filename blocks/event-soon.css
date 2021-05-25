@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px 30px 30px;
+    padding: 15px 30px;
     border-radius: 30px;
     background-color: #F8D162;
 }
@@ -34,6 +34,7 @@
 .event-soon__description_size_big {
     max-height: 629px;
     overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .event-soon__description_size_small {
@@ -41,7 +42,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 .event-soon__mentor {
@@ -55,16 +55,27 @@
 }
 
 .event-soon__caption {
-    margin: 15px auto 70px;
+    margin: 22px auto 70px;
     font-family: 'PT Root', Arial, Helvetica, sans-serif;
     font-size: 10px;
     line-height: 13px;
     font-weight: 400;
 }
 
-.event-soon__caption_without_tag {
-    margin-top: 31.8px;
+.event-soon__caption_size_big {
+    margin-top: 15px;
 }
+
+.event-soon__caption_with_tag {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.event-soon__caption_without_tag {
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
 
 .event-soon__title {
     font-family: 'Proto', Arial, Helvetica, sans-serif;
@@ -101,6 +112,7 @@
     letter-spacing: 0.2px;
     color: #224CFF;
     text-decoration: none;
+    margin-top: auto;
 }
 
 .event-soon__link:hover {
@@ -122,9 +134,13 @@
 
 .event-soon__about-wrapper_size_small {
     height: 224px;
-    margin-bottom: 30px;
 }
 
+@media (max-width: 1440px) {
+    .event-soon__caption_place_articles {
+        margin-bottom: 10px;
+    }
+} 
 
 @media (max-width: 1280px) {
 
@@ -134,6 +150,13 @@
 } 
 
 @media (max-width: 1024px) {
+    .event-soon__description_size_big {
+        padding-bottom: 15px;
+    }
+
+    .event-soon__description_size_small {
+        height: 176px;
+    }
 
     .event-soon__description {
         padding: 15px;

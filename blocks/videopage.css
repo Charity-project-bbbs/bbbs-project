@@ -9,9 +9,22 @@
 }
 
 .videopage__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    list-style: none;
+    padding: 0;
     margin-bottom: 80px;
     margin-top: 0;
 }
+
+@media (max-width: 1440px) {
+    .videopage__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
 
 @media (max-width: 1024px) {   
     .videopage__bigvideo {
@@ -20,6 +33,7 @@
     }
 
     .videopage__list {
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 60px;
     }
 }
@@ -30,6 +44,7 @@
     }
 
     .videopage__list {
+        grid-template-columns: 1fr;
         margin-bottom: 30px;
     }
 
