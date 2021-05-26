@@ -1,0 +1,149 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 85px 75px 120px;
+}
+
+.article__title {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.article__about {
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A1A;
+    margin: 40px 0 0 0;
+}
+
+.article__img-container {
+    margin: 50px 0 0 0;
+}
+
+.article__img {
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.article__caption {
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #464646;
+    margin: 10px 0 0 0;
+}
+
+.article__content {
+    margin-top: 50px;
+    max-width: 770px;
+}
+
+.article__subtitle {
+    font-family: 'Proto', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    margin: 80px 0 30px 0;
+}
+
+.article__subtitle:first-of-type {
+    margin-top: 0;
+}
+
+.article__paragraph {
+    font-family: 'PT Root', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+@media (max-width: 1450px) {
+    .article {
+        max-width: 970px;
+        padding: 85px 135px 120px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .article {
+        max-width: 770px;
+        padding: 49px 125px 100px;
+    }
+
+    .article__title {
+        max-width: 650px;
+        font-size: 37px;
+        line-height: 39px;
+    }
+
+    .article__about {
+        font-size: 19px;
+        line-height: 23px;
+        margin-top: 20px;
+    }
+
+    .article__img-container {
+        margin-top: 40px;
+    }
+
+    .article__caption {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .article__content {
+        margin-top: 30px;
+        max-width: 570px;
+    }
+
+    .article__subtitle {
+        font-size: 19px;
+        line-height: 23px;
+        margin: 30px 0 20px 0;
+    }
+
+    .article__paragraph {
+        font-size: 15px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 570px) {
+    .article {
+        padding-top: 25px;
+        padding: 20px 15px 50px;
+    }
+
+    .article__title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .article__about {
+        margin-top: 30px;
+    }
+
+    .article__img-container {
+        margin-top: 20px;
+    }
+
+}
