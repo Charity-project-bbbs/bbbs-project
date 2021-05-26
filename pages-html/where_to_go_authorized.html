@@ -323,7 +323,7 @@
             <form class="popup__form popup__form_type_recommendation" name="recommendation" action="#" method="POST"
                 novalidate>
                 <div class="popup__inputs">
-                    <input type="text" name="name" placeholder="Название" id="name"
+                    <input type="text" name="name" placeholder="Название*" id="name"
                         class="popup__input popup__input_type_name" required minlength="2">
                     <input class="popup__input popup__input_type_url" type="url" placeholder="Сайт" name="date">
                     <input class="popup__input popup__input_type_address" type="text" placeholder="Адрес*"
@@ -338,6 +338,7 @@
                     </div>
                     <input class="popup__input popup__input_type_age" type="number" placeholder="Возраст*" name="age">
                     <select class="popup__select popup__select_type_relax">
+                        <option disabled selected>Тип отдыха*</option>
                         <option>Активный</option>
                         <option>Развлекательный</option>
                         <option>Познавательный</option>

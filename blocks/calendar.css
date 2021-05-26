@@ -11,6 +11,18 @@
     position: relative;
     box-sizing: border-box;
 }
+/* ERROR */
+.calendar__error {
+    min-height: 414px;
+    background: rgba(242, 229, 229, 1);
+    color: rgba(255, 78, 78, 1);
+    padding-top: 59px;
+    justify-content: space-between;
+}
+
+.calendar__error-nonactive {
+    display: none;
+}
 
 /* ABOUT */
 .calendar__about {
@@ -157,6 +169,7 @@
 .calendar__btn {
     width: 48px;
     height: 48px;
+    padding: 0;
 }
 
 /*CALENDAR ONCLICK*/
@@ -213,6 +226,11 @@
     .calendar {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .calendar__error {
+        padding-top: 52px;
+        min-height: 382px;
     }
 
     .calendar__popup {
