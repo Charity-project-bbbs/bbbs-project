@@ -29,7 +29,7 @@
 }
 
 .article__img-container {
-    margin: 50px 0 0 0;
+    margin: 50px 0 50px 0;
 }
 
 .article__img {
@@ -49,7 +49,6 @@
 }
 
 .article__content {
-    margin-top: 50px;
     max-width: 770px;
 }
 
@@ -111,7 +110,6 @@
     }
 
     .article__content {
-        margin-top: 30px;
         max-width: 570px;
     }
 

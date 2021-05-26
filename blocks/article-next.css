@@ -12,6 +12,13 @@
     height: 70px;
 }
 
+.article-next__img_color_green {
+    background-color: #8CDD94;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
 .article-next__link {
     text-decoration: none;
     display: flex;
