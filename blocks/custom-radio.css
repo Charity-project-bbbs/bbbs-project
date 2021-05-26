@@ -1,19 +1,45 @@
 .custom-radio {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
   
-    border: 2px solid #999;
-    outline: none;
-    margin-right: 5px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  outline: none;
+  margin-right: 5px;
   
-    position: relative;
+  position: relative;
   }
   
 .custom-radio:checked {
-    border: 6px solid black;
+  background-color: black;
+    border: 5px solid #ffffff;
+  }
+
+.custom-radio-error {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+    
+  border: 2px solid #FF4E4E;
+  background: #FF4E4E;
+  opacity: 0.2;
+  outline: none;
+  margin-right: 5px;
+    
+  position: relative;
+  }
+    
+.custom-radio-error:checked {
+  background-color: #FF4E4E;
+  opacity: 0.2;
+  border: 5px solid #FF4E4E;
   }
