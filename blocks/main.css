@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.main_place_article {
+    overflow: visible;
+}
+
 .main__section {
     margin: 80px auto 120px;
 }

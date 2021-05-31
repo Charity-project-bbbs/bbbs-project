@@ -15,8 +15,8 @@
 .article-next__img_color_green {
     background-color: #8CDD94;
     border-radius: 100%;
-    width: 70px;
-    height: 70px;
+    width: 69px;
+    height: 69px;
 }
 
 .article-next__link {
@@ -63,6 +63,7 @@
 @media (max-width: 580px) {
     .article-next__link-text {
         padding-left: 15px;
+        width: 146px;
     }
 
     .article-next__link-img {
