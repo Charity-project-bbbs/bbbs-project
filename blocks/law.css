@@ -17,14 +17,25 @@
     display: none;
 }
 
+.law__wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.law__wrapper::before {
+    content: '';
+    padding-top: 100%;
+}
+
 .law__link {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding: 164px 55px;
+    padding: 0 55px;
     background: #F8D162;
     border-radius: 3px;
     text-decoration: none;
@@ -90,7 +101,7 @@
     }
 
     .law__link {
-        padding: 139px 30px;
+        padding: 0 30px;
     }
 
     .law__line {
@@ -121,7 +132,7 @@
     }
 
     .law__link {
-        padding: 106px 20px;
+        padding: 0 20px;
         max-width: 290px;
     }
 

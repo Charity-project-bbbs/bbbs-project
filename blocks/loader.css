@@ -1,0 +1,135 @@
+.loader {
+	position: relative;
+	width: 136.97px;
+	height: 143.89px;
+	margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-duration: 1s;
+    animation-delay: 1s;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;
+}
+
+.loader__text {
+    font-family:'PT Root', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2E2468;
+}
+
+.loader__item {
+	position:absolute;
+	background-color: transparent;
+	border-radius: 50%;
+	animation-name: load;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;	
+	animation-direction: normal;	
+}
+
+.loader__item_n_1 {
+    height: 28.84px;
+	width: 28.84px;
+	left: 73.33px;
+	top: 0;
+	animation-delay: 0.9s;
+}
+
+.loader__item_n_2 {
+    height: 26.53px;
+	width: 26.53px;
+	left: 41.88px;
+	top: 1.42px;
+	animation-delay: 0.8s;
+}
+
+.loader__item_n_3 {
+    height: 24.22px;
+	width: 24.22px;
+	left: 14.93px;
+	top: 19.11px;
+	animation-delay: 0.7s;
+}
+
+.loader__item_n_4 {
+    height: 21.92px;
+	width: 21.92px;
+	left: 0;
+	top: 48.64px;
+	animation-delay: 0.6s;
+}
+
+.loader__item_n_5 {
+    height: 19.61px;
+	width: 19.61px;
+	left: 1.42px;
+	top: 82.4px;
+	animation-delay: 0.5s;
+}
+
+.loader__item_n_6 {
+    height: 17.3px;
+	width: 17.3px;
+	left: 19.12px;
+	top: 111.66px;
+	animation-delay: 0.4s;
+}
+
+.loader__item_n_7 {
+    height: 15px;
+	width: 15px;
+	left: 48.64px;
+	bottom:0;
+	animation-delay: 0.3s;
+}
+
+.loader__item_n_8{
+    height: 12.69px;
+	width: 12.69px;
+	left: 82.4px;
+	bottom: 1.42px;
+	animation-delay: 0.2s;
+}
+
+.loader__item_n_9{
+    height: 10.38px;
+	width: 10.38px;
+	left: 111.66px;
+	top: 114.4px;
+	animation-delay: 0.1s;
+}
+
+.loader__item_n_10{
+    height: 8.07px;
+	width: 8.07px;
+	right: 0;
+	top: 87.17px;
+	animation-delay: 0s;
+}
+
+
+
+@keyframes load {
+	0%{
+		background-color: transparent;
+	}
+
+	100%{
+		background-color:#2E2468;
+	}
+   
+}
+
+@keyframes rotate {
+	0%{
+		transform: rotate(0);
+	}
+
+	100%{
+		transform: rotate(90deg);
+	}   
+}
