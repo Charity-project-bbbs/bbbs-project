@@ -118,7 +118,7 @@
     padding: 13px 20px 16px;
     margin-bottom: 20px;
     border: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 19px;
@@ -127,7 +127,7 @@
 }
 
 .popup__input::placeholder {
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -142,7 +142,7 @@
     padding: 13px 20px 16px;
     margin-bottom: 20px;
     border: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 19px;
@@ -151,7 +151,7 @@
 }
 
 .popup__input-error::-webkit-input-placeholder {
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -161,7 +161,7 @@
 }
 
 .popup__input-error::-moz-placeholder {
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -212,7 +212,7 @@
     padding: 13px 20px 16px;
     margin-bottom: 20px;
     border: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 19px;
@@ -226,7 +226,7 @@
     padding: 13px 20px 16px;
     margin-bottom: 20px;
     border: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 19px;

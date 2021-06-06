@@ -218,7 +218,7 @@
 .header__city {
     margin: 0 75px 0 0;
     color: #A7A6A6;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     font-weight: 400;
@@ -235,7 +235,7 @@
 .header__logout {
     margin: 0;
     color: #A7A6A6;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     font-weight: 400;
@@ -269,7 +269,7 @@
     width: 100%;
     margin-bottom: 30px;
     padding-bottom: 5px;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -278,7 +278,7 @@
 }
 
 .header__input::placeholder {
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;

@@ -110,7 +110,7 @@
     grid-area: copy;
     margin: 0 0 12px 0;
     padding: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -129,7 +129,7 @@
 .footer__develop-text {
     margin: 0 30px 0 0;
     padding: 0;
-    font-family: 'PT Proto', Arial, sans-serif;
+    font-family: 'PT Root', Arial, sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
